@@ -11,6 +11,6 @@
 angular.module('projetobrasil.dados.main.controllers', [])
   .controller('MainCtrl', function ($scope) {
 
-    // $scope.myData = [10,20,30,40,60];
+    $scope.myData = [10,20, 40, 60];
 
   });
