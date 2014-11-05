@@ -10,9 +10,7 @@
  */
 angular.module('projetobrasil.dados.main.controllers', [])
   .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+
+    // $scope.myData = [10,20,30,40,60];
+
   });

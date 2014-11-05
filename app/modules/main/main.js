@@ -2,7 +2,8 @@
 
 angular
   .module('projetobrasil.dados.main', [
-    'projetobrasil.dados.main.controllers'
+    'projetobrasil.dados.main.controllers',
+    'projetobrasil.dados.main.directives'
   ])
   .config(function($stateProvider){
     $stateProvider
