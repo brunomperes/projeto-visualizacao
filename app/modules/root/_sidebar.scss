@@ -1,0 +1,16 @@
+nav.main-navigation {
+  overflow-y: hidden;
+}
+
+.sidebar {
+  width: 90px;
+}
+
+.main-navigation ul > li > a, nav.main-navigation {
+  text-align: center;
+}
+
+.main-navigation ul > li i {
+  font-size: 20px;
+  padding-right: 0;
+}
