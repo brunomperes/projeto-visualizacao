@@ -54,7 +54,7 @@ var RadarChart = {
   var tooltip;
 
   //Circular segments
-  for(var j=0; j<cfg.levels-1; j++){
+  for(var j=0; j<cfg.levels; j++){
     var levelFactor = cfg.factor*radius*((j+1)/cfg.levels);
     g.selectAll('.levels')
      .data(allAxis)

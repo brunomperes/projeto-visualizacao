@@ -10,7 +10,6 @@
 angular.module('projetobrasil.dados.candidatos.controllers', [])
   .controller('CandidatosCtrl', ['$scope', 'candidatosServ', function ($scope, candidatosServ) {
 
-    $scope.eduardoJorge = candidatosServ.eduardo;
-    $scope.eduardoJorge2 = candidatosServ.eduardoComTesteCego;
+    $scope.candidatos = candidatosServ;
 
   }]);
