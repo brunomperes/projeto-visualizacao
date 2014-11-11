@@ -17,7 +17,8 @@ angular
     'ngTouch',
     'ui.router',
     'projetobrasil.dados.main',
-    'projetobrasil.dados.root'
+    'projetobrasil.dados.root',
+    'projetobrasil.dados.candidatos'
   ])
   .config(function($urlRouterProvider){
     $urlRouterProvider.otherwise('/');

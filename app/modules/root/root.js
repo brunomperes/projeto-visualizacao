@@ -2,6 +2,7 @@
 
 angular
   .module('projetobrasil.dados.root', [
+    'projetobrasil.dados.root.controllers'
   ])
   .config(function($stateProvider){
     $stateProvider
@@ -11,7 +12,7 @@ angular
           '@': {
 
           },
-          'navbar@': { templateUrl: 'modules/root/navbar.html' }
+          'navbar@': { templateUrl: 'modules/root/navbar.html', controller: 'NavbarCtrl' }
         }
       });
   });
