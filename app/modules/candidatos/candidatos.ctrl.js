@@ -14,6 +14,7 @@ angular.module('projetobrasil.dados.candidatos.controllers', [])
     // candidatosServ.carregaDados(function(dados){
       // console.log(dados);
       $scope.candidatos = candidatosServ.medias;
+      $scope.comparativo = candidatosServ.comparativo;
     // });
 
   }]);

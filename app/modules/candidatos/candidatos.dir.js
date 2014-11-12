@@ -10,7 +10,11 @@ angular.module('projetobrasil.dados.candidatos.directives', [])
         var colorscale = d3.scale.category10();
 
         //Legend titles
-        var LegendOptions = ['Comparativo', 'Teste cego'];
+        if (attrs.legenda === undefined){
+          var LegendOptions = ['Comparativo', 'Teste cego'];
+        } else {
+          var LegendOptions = JSON.parse(attrs.legenda);
+        }
 
         //Data
         var d = JSON.parse(attrs.dadosCandidato);
@@ -82,4 +86,5 @@ angular.module('projetobrasil.dados.candidatos.directives', [])
             ;
       }
     };
-  }]);
+  }])
+;

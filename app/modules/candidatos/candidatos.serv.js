@@ -170,8 +170,24 @@ angular.module('projetobrasil.dados.candidatos.services', [])
       {"axis": "Segurança Pública", "value": 3.67},
     ]
   ]
-}
+},
+  comparativo: {
+    legenda: [],
+    dados: []
+  }
   };
+
+  // candidatosService.medias = JSON.parse(candidatosService.medias);
+
+  function dadosTodosCandidatos() {
+    angular.forEach(candidatosService.medias, function(valor, key){
+      candidatosService.comparativo.dados.push(valor[0]);
+      candidatosService.comparativo.legenda.push(key);
+    });
+  }
+
+  dadosTodosCandidatos();
+    console.log(candidatosService.comparativo);
 
   candidatosService.carregaDados = function(callback){
     console.log('carregando');
