@@ -174,20 +174,26 @@ angular.module('projetobrasil.dados.candidatos.services', [])
   comparativo: {
     legenda: [],
     dados: []
+  },
+  testeCego: {
+    legenda: [],
+    dados: []
   }
   };
 
-  // candidatosService.medias = JSON.parse(candidatosService.medias);
-
-  function dadosTodosCandidatos() {
+  // Agrupa os dados por Teste Cego e por Comparativo, não sendo por candidato
+  function extraiDadosPorAvaliacao() {
     angular.forEach(candidatosService.medias, function(valor, key){
+
       candidatosService.comparativo.dados.push(valor[0]);
       candidatosService.comparativo.legenda.push(key);
+
+      candidatosService.testeCego.dados.push(valor[1]);
+      candidatosService.testeCego.legenda.push(key);
     });
   }
 
-  dadosTodosCandidatos();
-    console.log(candidatosService.comparativo);
+  extraiDadosPorAvaliacao();
 
   candidatosService.carregaDados = function(callback){
     console.log('carregando');

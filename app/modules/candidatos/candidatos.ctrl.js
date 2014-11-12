@@ -15,6 +15,7 @@ angular.module('projetobrasil.dados.candidatos.controllers', [])
       // console.log(dados);
       $scope.candidatos = candidatosServ.medias;
       $scope.comparativo = candidatosServ.comparativo;
+      $scope.testeCego = candidatosServ.testeCego;
     // });
 
   }]);
