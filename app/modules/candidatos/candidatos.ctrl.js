@@ -10,6 +10,10 @@
 angular.module('projetobrasil.dados.candidatos.controllers', [])
   .controller('CandidatosCtrl', ['$scope', 'candidatosServ', function ($scope, candidatosServ) {
 
-    $scope.candidatos = candidatosServ;
+    // $scope.candidatos = {};
+    // candidatosServ.carregaDados(function(dados){
+      // console.log(dados);
+      $scope.candidatos = candidatosServ.medias;
+    // });
 
   }]);
