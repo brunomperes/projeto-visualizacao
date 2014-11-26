@@ -432,71 +432,103 @@ angular.module('projetobrasil.dados.diferencas.services', [])
   	aecio: [
   		testeCego : [
   				'cultura' : [
+            {"name":"Eduardo","value":3.64},{"name":"Marina","value":0.12},{"name":"Levy Fidélix","value":3.64},{"name":"Dilma","value":0.07},{"name":"Luciana Genro","value":3.64},{"name":"Eymael","value":0},{"name":"Pastor Everaldo","value":0.21},{"name":"Mauro Iasi","value":0.02},{"name":"Rui Costa Pimenta","value":0.79},{"name":"Zé Maria","value":3.64}
   				],
   				'democracia' :	[
+            {"name":"Eduardo","value":-0.06},{"name":"Marina","value":-0.01},{"name":"Levy Fidélix","value":0},{"name":"Dilma","value":-0.55},{"name":"Luciana Genro","value":0.23},{"name":"Eymael","value":0.15},{"name":"Pastor Everaldo","value":-0.24},{"name":"Mauro Iasi","value":0.64},{"name":"Rui Costa Pimenta","value":0.27},{"name":"Zé Maria","value":-0.39}
   				],
   				'desenvolvimentoEconomico' : [
+            {"name":"Eduardo","value":0.19},{"name":"Marina","value":-0.06},{"name":"Levy Fidélix","value":0.34},{"name":"Dilma","value":-0.17},{"name":"Luciana Genro","value":0.43},{"name":"Eymael","value":-0.09},{"name":"Pastor Everaldo","value":0.24},{"name":"Mauro Iasi","value":0.7},{"name":"Rui Costa Pimenta","value":1.09},{"name":"Zé Maria","value":3.62}
   				],
   				'direitosHumanos' : [
+            {"name":"Eduardo","value":0.11},{"name":"Marina","value":0.26},{"name":"Levy Fidélix","value":3.63},{"name":"Dilma","value":0.21},{"name":"Luciana Genro","value":-0.1},{"name":"Eymael","value":-0.42},{"name":"Pastor Everaldo","value":-0.13},{"name":"Mauro Iasi","value":0.27},{"name":"Rui Costa Pimenta","value":0.5},{"name":"Zé Maria","value":0.39}
   				],
   				'educacao' : [
+            {"name":"Eduardo","value":-0.12},{"name":"Marina","value":-0.02},{"name":"Levy Fidélix","value":-0.01},{"name":"Dilma","value":-0.13},{"name":"Luciana Genro","value":-0.11},{"name":"Eymael","value":-0.1},{"name":"Pastor Everaldo","value":0.17},{"name":"Mauro Iasi","value":0.16},{"name":"Rui Costa Pimenta","value":0.71},{"name":"Zé Maria","value":-0.17}
   				],
   				'esporte' : [
+            {"name":"Eduardo","value":3.6},{"name":"Marina","value":3.6},{"name":"Levy Fidélix","value":3.6},{"name":"Dilma","value":0.49},{"name":"Luciana Genro","value":3.6},{"name":"Eymael","value":-0.04},{"name":"Pastor Everaldo","value":0.87},{"name":"Mauro Iasi","value":3.6},{"name":"Rui Costa Pimenta","value":3.6},{"name":"Zé Maria","value":3.6}
   				],
   				'gestaoPublica' : [
+            {"name":"Eduardo","value":-0.06},{"name":"Marina","value":0.22},{"name":"Levy Fidélix","value":1.72},{"name":"Dilma","value":-0.22},{"name":"Luciana Genro","value":0.28},{"name":"Eymael","value":-0.11},{"name":"Pastor Everaldo","value":0.44},{"name":"Mauro Iasi","value":1.1},{"name":"Rui Costa Pimenta","value":0.95},{"name":"Zé Maria","value":1.23}
   				],
   				'infraestrutura' : [
+            {"name":"Eduardo","value":0.19},{"name":"Marina","value":-0.11},{"name":"Levy Fidélix","value":0.31},{"name":"Dilma","value":-0.15},{"name":"Luciana Genro","value":0.86},{"name":"Eymael","value":-0.03},{"name":"Pastor Everaldo","value":0.13},{"name":"Mauro Iasi","value":0.7},{"name":"Rui Costa Pimenta","value":-0.39},{"name":"Zé Maria","value":-0.21}
   				],
   				'liberdadesCivis' : [
+            {"name":"Eduardo","value":1.7},{"name":"Marina","value":5},{"name":"Levy Fidélix","value":5},{"name":"Dilma","value":5},{"name":"Luciana Genro","value":1.75},{"name":"Eymael","value":5},{"name":"Pastor Everaldo","value":1.74},{"name":"Mauro Iasi","value":5},{"name":"Rui Costa Pimenta","value":1.63},{"name":"Zé Maria","value":1.49}
   				],
   				'meioAmbiente' : [
+            {"name":"Eduardo","value":0.45},{"name":"Marina","value":-0.18},{"name":"Levy Fidélix","value":3.61},{"name":"Dilma","value":-0.03},{"name":"Luciana Genro","value":3.61},{"name":"Eymael","value":-0.26},{"name":"Pastor Everaldo","value":-0.11},{"name":"Mauro Iasi","value":3.61},{"name":"Rui Costa Pimenta","value":3.61},{"name":"Zé Maria","value":3.61}
   				],
   				'outros' : [
+            {"name":"Eduardo","value":-0.67},{"name":"Marina","value":-0.59},{"name":"Levy Fidélix","value":-0.11},{"name":"Dilma","value":2.95},{"name":"Luciana Genro","value":2.95},{"name":"Eymael","value":-0.32},{"name":"Pastor Everaldo","value":0.19},{"name":"Mauro Iasi","value":0.42},{"name":"Rui Costa Pimenta","value":2.95},{"name":"Zé Maria","value":0.46}
   				],
   				'politicaEconomica' : [
+            {"name":"Eduardo","value":0.13},{"name":"Marina","value":-0.3},{"name":"Levy Fidélix","value":-0.02},{"name":"Dilma","value":-0.43},{"name":"Luciana Genro","value":0.27},{"name":"Eymael","value":-0.34},{"name":"Pastor Everaldo","value":0.02},{"name":"Mauro Iasi","value":0.33},{"name":"Rui Costa Pimenta","value":0.68},{"name":"Zé Maria","value":0.52}
   				],
   				'politicaExterna' : [
+            {"name":"Eduardo","value":0.9},{"name":"Marina","value":0.65},{"name":"Levy Fidélix","value":0.74},{"name":"Dilma","value":0.5},{"name":"Luciana Genro","value":3.93},{"name":"Eymael","value":0.42},{"name":"Pastor Everaldo","value":0.76},{"name":"Mauro Iasi","value":1.31},{"name":"Rui Costa Pimenta","value":3.93},{"name":"Zé Maria","value":3.93}
   				],
   				'segurancaPublica' : [
+            {"name":"Eduardo","value":0.49},{"name":"Marina","value":0.09},{"name":"Levy Fidélix","value":0.47},{"name":"Dilma","value":-0.05},{"name":"Luciana Genro","value":0.25},{"name":"Eymael","value":0.14},{"name":"Pastor Everaldo","value":0.31},{"name":"Mauro Iasi","value":0.74},{"name":"Rui Costa Pimenta","value":0.9},{"name":"Zé Maria","value":0.82}
   				],
   				'politicasSociais' : [
+            {"name":"Eduardo","value":3.41},{"name":"Marina","value":-0.27},{"name":"Levy Fidélix","value":0.31},{"name":"Dilma","value":0.01},{"name":"Luciana Genro","value":0.22},{"name":"Eymael","value":-0.14},{"name":"Pastor Everaldo","value":-0.14},{"name":"Mauro Iasi","value":0.35},{"name":"Rui Costa Pimenta","value":0.66},{"name":"Zé Maria","value":-0.34}
   				],
   				'saude' : [
+            {"name":"Eduardo","value":0.1},{"name":"Marina","value":0},{"name":"Levy Fidélix","value":0.21},{"name":"Dilma","value":-0.23},{"name":"Luciana Genro","value":-0.46},{"name":"Eymael","value":-0.34},{"name":"Pastor Everaldo","value":0.22},{"name":"Mauro Iasi","value":0.7},{"name":"Rui Costa Pimenta","value":0.35},{"name":"Zé Maria","value":0.12}
   				]
   		],
 
   		comparativo : [
   				'cultura' : [
+            {"name":"Eduardo","value":3.9},{"name":"Marina","value":0.02},{"name":"Levy Fidélix","value":3.9},{"name":"Dilma","value":0.67},{"name":"Luciana Genro","value":3.9},{"name":"Eymael","value":0.29},{"name":"Pastor Everaldo","value":-0.2},{"name":"Mauro Iasi","value":1.82},{"name":"Rui Costa Pimenta","value":0.67},{"name":"Zé Maria","value":3.9}
   				],
   				'democracia' :	[
+            {"name":"Eduardo","value":-1.27},{"name":"Marina","value":-0.57},{"name":"Levy Fidélix","value":0.22},{"name":"Dilma","value":-0.55},{"name":"Luciana Genro","value":-1.2},{"name":"Eymael","value":-0.18},{"name":"Pastor Everaldo","value":-1.21},{"name":"Mauro Iasi","value":0.37},{"name":"Rui Costa Pimenta","value":-0.17},{"name":"Zé Maria","value":-0.94}
   				],
   				'desenvolvimentoEconomico' : [
+            {"name":"Eduardo","value":0.31},{"name":"Marina","value":0.24},{"name":"Levy Fidélix","value":0.53},{"name":"Dilma","value":0.4},{"name":"Luciana Genro","value":-0.07},{"name":"Eymael","value":0.11},{"name":"Pastor Everaldo","value":-0.38},{"name":"Mauro Iasi","value":4.23},{"name":"Rui Costa Pimenta","value":3.15},{"name":"Zé Maria","value":4.23}
   				],
   				'direitosHumanos' : [
+            {"name":"Eduardo","value":-0.47},{"name":"Marina","value":0.38},{"name":"Levy Fidélix","value":3.94},{"name":"Dilma","value":-0.24},{"name":"Luciana Genro","value":-0.87},{"name":"Eymael","value":-0.29},{"name":"Pastor Everaldo","value":0.54},{"name":"Mauro Iasi","value":-0.28},{"name":"Rui Costa Pimenta","value":0.48},{"name":"Zé Maria","value":0.07}
   				],
   				'educacao' : [
+            {"name":"Eduardo","value":-0.99},{"name":"Marina","value":-0.57},{"name":"Levy Fidélix","value":0.15},{"name":"Dilma","value":-0.77},{"name":"Luciana Genro","value":-0.97},{"name":"Eymael","value":-0.43},{"name":"Pastor Everaldo","value":-0.33},{"name":"Mauro Iasi","value":-0.4},{"name":"Rui Costa Pimenta","value":0.47},{"name":"Zé Maria","value":-0.41}
   				],
   				'esporte' : [
+            {"name":"Eduardo","value":3.86},{"name":"Marina","value":3.86},{"name":"Levy Fidélix","value":3.86},{"name":"Dilma","value":0.48},{"name":"Luciana Genro","value":3.86},{"name":"Eymael","value":0.36},{"name":"Pastor Everaldo","value":0.86},{"name":"Mauro Iasi","value":-0.12},{"name":"Rui Costa Pimenta","value":3.86},{"name":"Zé Maria","value":3.86}
   				],
   				'gestaoPublica' : [
+            {"name":"Eduardo","value":-0.13},{"name":"Marina","value":0.44},{"name":"Levy Fidélix","value":4.57},{"name":"Dilma","value":0.6},{"name":"Luciana Genro","value":0.12},{"name":"Eymael","value":0.54},{"name":"Pastor Everaldo","value":0.99},{"name":"Mauro Iasi","value":0.32},{"name":"Rui Costa Pimenta","value":2.31},{"name":"Zé Maria","value":1.28}
   				],
   				'infraestrutura' : [
+            {"name":"Eduardo","value":-0.65},{"name":"Marina","value":-0.2},{"name":"Levy Fidélix","value":0.58},{"name":"Dilma","value":-0.08},{"name":"Luciana Genro","value":-0.45},{"name":"Eymael","value":-0.09},{"name":"Pastor Everaldo","value":-0.2},{"name":"Mauro Iasi","value":-0.51},{"name":"Rui Costa Pimenta","value":-0.23},{"name":"Zé Maria","value":-0.41}
   				],
   				'liberdadesCivis' : [
+            {"name":"Eduardo","value":0.38},{"name":"Marina","value":5},{"name":"Levy Fidélix","value":5},{"name":"Dilma","value":5},{"name":"Luciana Genro","value":0.35},{"name":"Eymael","value":5},{"name":"Pastor Everaldo","value":0.78},{"name":"Mauro Iasi","value":5},{"name":"Rui Costa Pimenta","value":1.2},{"name":"Zé Maria","value":0.97}
   				],
   				'meioAmbiente' : [
+            {"name":"Eduardo","value":-0.63},{"name":"Marina","value":-0.5},{"name":"Levy Fidélix","value":3.9},{"name":"Dilma","value":0.48},{"name":"Luciana Genro","value":3.9},{"name":"Eymael","value":0.65},{"name":"Pastor Everaldo","value":0.04},{"name":"Mauro Iasi","value":-0.71},{"name":"Rui Costa Pimenta","value":3.9},{"name":"Zé Maria","value":3.9}
   				],
   				'outros' : [
+            {"name":"Eduardo","value":-1.29},{"name":"Marina","value":-0.8},{"name":"Levy Fidélix","value":-1.3},{"name":"Dilma","value":3.2},{"name":"Luciana Genro","value":3.2},{"name":"Eymael","value":0.45},{"name":"Pastor Everaldo","value":-0.04},{"name":"Mauro Iasi","value":-1.47},{"name":"Rui Costa Pimenta","value":3.2},{"name":"Zé Maria","value":-0.52}
   				],
   				'politicaEconomica' : [
+            {"name":"Eduardo","value":0.01},{"name":"Marina","value":0.85},{"name":"Levy Fidélix","value":1.02},{"name":"Dilma","value":1.61},{"name":"Luciana Genro","value":0.02},{"name":"Eymael","value":0.65},{"name":"Pastor Everaldo","value":-0.1},{"name":"Mauro Iasi","value":4.52},{"name":"Rui Costa Pimenta","value":1.79},{"name":"Zé Maria","value":0.83}
   				],
   				'politicaExterna' : [
+            {"name":"Eduardo","value":0.11},{"name":"Marina","value":0.36},{"name":"Levy Fidélix","value":-0.77},{"name":"Dilma","value":0.38},{"name":"Luciana Genro","value":4.23},{"name":"Eymael","value":2.73},{"name":"Pastor Everaldo","value":0.68},{"name":"Mauro Iasi","value":4.23},{"name":"Rui Costa Pimenta","value":4.23},{"name":"Zé Maria","value":4.23}
   				],
   				'segurancaPublica' : [
+            {"name":"Eduardo","value":-0.49},{"name":"Marina","value":-0.15},{"name":"Levy Fidélix","value":-0.47},{"name":"Dilma","value":1.06},{"name":"Luciana Genro","value":-0.73},{"name":"Eymael","value":-0.21},{"name":"Pastor Everaldo","value":-0.5},{"name":"Mauro Iasi","value":-0.55},{"name":"Rui Costa Pimenta","value":0.86},{"name":"Zé Maria","value":-0.33}
   				],
   				'politicasSociais' : [
+            {"name":"Eduardo","value":3.72},{"name":"Marina","value":-0.25},{"name":"Levy Fidélix","value":0.22},{"name":"Dilma","value":-0.53},{"name":"Luciana Genro","value":-0.81},{"name":"Eymael","value":3.72},{"name":"Pastor Everaldo","value":-0.33},{"name":"Mauro Iasi","value":-0.93},{"name":"Rui Costa Pimenta","value":3.56},{"name":"Zé Maria","value":-0.5}
   				],
   				'saude' : [
+            {"name":"Eduardo","value":-0.57},{"name":"Marina","value":-0.04},{"name":"Levy Fidélix","value":0.06},{"name":"Dilma","value":0.04},{"name":"Luciana Genro","value":-0.57},{"name":"Eymael","value":-0.05},{"name":"Pastor Everaldo","value":-0.8},{"name":"Mauro Iasi","value":-0.49},{"name":"Rui Costa Pimenta","value":1.9},{"name":"Zé Maria","value":0.13}
   				]
   		]
   	],
