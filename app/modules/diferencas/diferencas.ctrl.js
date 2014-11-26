@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name projetobrasil.dados.modules.controller:GenericCtrl
+ * @name projetobrasil.dados.modules.controller:diferencasCtrl
  * @description
- * # GenericCtrl
- * Controller of the projetobrasil.dados.generic
+ * # diferencasCtrl
+ * Controller of the projetobrasil.dados.diferencas
  */
-angular.module('projetobrasil.dados.generic.controllers', [])
-  .controller('GenericCtrl', ['$scope', function ($scope) {
+angular.module('projetobrasil.dados.diferencas.controllers', [])
+  .controller('DiferencasCtrl', ['$scope', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
