@@ -14,4 +14,8 @@ angular.module('projetobrasil.dados.candidatos.controllers', [])
     $scope.comparativo = candidatosServ.comparativo;
     $scope.testeCego = candidatosServ.testeCego;
 
+    $scope.$watch('candidatos', function (newVal) {
+      candidatosServ.extraiDadosPorAvaliacao();
+    }, true);
+
   }]);

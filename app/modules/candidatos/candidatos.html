@@ -2,59 +2,28 @@
 
 <div class="container marketing">
   <div class="row">
+    <div class="col-lg-12">
+      <h3>Comparativo de candidatos</h3>
+      <div class="checkbox" ng-repeat="candidato in candidatos">
+        <label>
+        <input type="checkbox" ng-model="candidato.selecionado" ng-change="atualizaCheckbox()">{{candidato.nome}}</input>
+         </label>
+      </div>
+    </div>
     <div class="col-lg-6">
-      <p>Comparativo</p>
+      <p>Notas no Comparativo de Propostas</p>
       <grafico-radar dados-candidato="{{comparativo.dados}}" legenda="{{comparativo.legenda}}"></grafico-radar>
     </div>
     <div class="col-lg-6">
-      <p>Teste cego</p>
+      <p>Notas Médias no Teste cego</p>
       <grafico-radar dados-candidato="{{testeCego.dados}}" legenda="{{testeCego.legenda}}"></grafico-radar>
     </div>
   </div>
+  <hr>
   <div class="row">
-    <div class="col-lg-6">
-      <p>Dilma</p>
-      <grafico-radar dados-candidato="{{candidatos.dilma}}"></grafico-radar>
-    </div>
-    <div class="col-lg-6">
-      <p>Aécio</p>
-      <grafico-radar dados-candidato="{{candidatos.aecio}}"></grafico-radar>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-6">
-      <p>Marina</p>
-      <grafico-radar dados-candidato="{{candidatos.marina}}"></grafico-radar>
-    </div>
-    <div class="col-lg-6">
-      <p>Eduardo Jorge</p>
-      <grafico-radar dados-candidato="{{candidatos.eduardo}}"></grafico-radar>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-6">
-      <p>Luciana Genro</p>
-      <grafico-radar dados-candidato="{{candidatos['Luciana Genro']}}"></grafico-radar>
-    </div>
-    <div class="col-lg-6">
-      <p>Eymael</p>
-      <grafico-radar dados-candidato="{{candidatos['Eymael']}}"></grafico-radar>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-6">
-      <p>Pastor Everaldo</p>
-      <grafico-radar dados-candidato="{{candidatos['Pastor Everaldo']}}"></grafico-radar>
-    </div>
-    <div class="col-lg-6">
-      <p>Rui Costa Pimenta</p>
-      <grafico-radar dados-candidato="{{candidatos['Rui Costa Pimenta']}}"></grafico-radar>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-6">
-      <p>Zé Maria</p>
-      <grafico-radar dados-candidato="{{candidatos['Zé Maria']}}"></grafico-radar>
+    <div class="col-lg-6" ng-repeat="(key, candidato) in candidatos | filter:{selecionado:'true'}">
+      <p>{{candidato.nome}}</p>
+      <grafico-radar dados-candidato="{{candidato.notas}}"></grafico-radar>
     </div>
   </div>
 </div>
