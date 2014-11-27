@@ -34,8 +34,18 @@ angular.module('projetobrasil.dados.candidatos.directives', [])
             //Legend titles
             if (attrs.legenda === undefined){
               var LegendOptions = ['Comparativo', 'Teste cego'];
+              mycfg.color = d3.scale.category10();
             } else {
               var LegendOptions = JSON.parse(attrs.legenda);
+              mycfg.color = JSON.parse(attrs.cores);
+            }
+
+            // Transforma o vetor em função, como requisito da função usada em RadarChart
+            if (mycfg.color.constructor === Array){
+              var aux = mycfg.color;
+              mycfg.color = function(i){
+                return aux[i];
+              }
             }
 
             //Data
@@ -81,7 +91,7 @@ angular.module('projetobrasil.dados.candidatos.directives', [])
                 .attr('y', function(d, i){ return i * 20;})
                 .attr('width', 10)
                 .attr('height', 10)
-                .style('fill', function(d, i){ return colorscale(i);})
+                .style('fill', function(d, i){ return mycfg.color(i);})
                 ;
               //Create text next to squares
               legend.selectAll('text')

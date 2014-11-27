@@ -9,6 +9,7 @@ angular.module('projetobrasil.dados.candidatos.services', [])
       {
         'nome': 'Eduardo Jorge',
         'selecionado': true,
+        'cor': '#7AB512',
         'notas':
         [
           [
@@ -54,6 +55,7 @@ angular.module('projetobrasil.dados.candidatos.services', [])
       {
         'nome': 'Dilma',
         'selecionado': true,
+        'cor': '#eb2132',
         'notas':
         [
           [
@@ -99,6 +101,7 @@ angular.module('projetobrasil.dados.candidatos.services', [])
       {
         'nome': 'Marina Silva',
         'selecionado': true,
+        'cor': '#FECF05',
         'notas':
         [
           [
@@ -145,6 +148,7 @@ angular.module('projetobrasil.dados.candidatos.services', [])
       {
         'nome': 'Aécio Neves',
         'selecionado': true,
+        'cor': '#0069b2',
         'notas':
         [
           [
@@ -190,6 +194,7 @@ angular.module('projetobrasil.dados.candidatos.services', [])
       {
         'nome': 'Luciana Genro',
         'selecionado': true,
+        'cor': '#4a2c47',
         'notas':
         [
           [
@@ -235,6 +240,7 @@ angular.module('projetobrasil.dados.candidatos.services', [])
       {
         'nome': 'Eymael',
         'selecionado': true,
+        'cor': '#F86C31',
         'notas':
         [
         [
@@ -280,6 +286,7 @@ angular.module('projetobrasil.dados.candidatos.services', [])
       {
         'nome': 'Pastor Everaldo',
         'selecionado': true,
+        'cor': '#A8FAF8',
         'notas':
         [
           [
@@ -325,6 +332,7 @@ angular.module('projetobrasil.dados.candidatos.services', [])
       {
         'nome': 'Rui Costa Pimenta',
         'selecionado': true,
+        'cor': '#9D1C20',
         'notas':
         [
           [
@@ -370,6 +378,7 @@ angular.module('projetobrasil.dados.candidatos.services', [])
       {
         'nome': 'Mauro Iasi',
         'selecionado': true,
+        'cor': '#A28A7A',
         'notas':
               [
                 [
@@ -415,6 +424,7 @@ angular.module('projetobrasil.dados.candidatos.services', [])
       {
         'nome': 'Zé Maria',
         'selecionado': true,
+        'cor': '#AFB2BF',
         'notas':
         [
           [
@@ -464,8 +474,9 @@ angular.module('projetobrasil.dados.candidatos.services', [])
   },
   testeCego: {
     legenda: [],
-    dados: []
-  }
+    dados: [],
+  },
+    cores: []
   };
 
   // Agrupa os dados por Teste Cego e por Comparativo, não sendo por candidato
@@ -473,14 +484,19 @@ angular.module('projetobrasil.dados.candidatos.services', [])
 
     candidatosService.comparativo.dados.length = 0;
     candidatosService.comparativo.legenda.length = 0;
+
     candidatosService.testeCego.dados.length = 0;
     candidatosService.testeCego.legenda.length = 0;
+
+    candidatosService.cores.length = 0;
 
     angular.forEach(candidatosService.medias, function(valor, key){
 
       if(valor.selecionado === true){
         candidatosService.comparativo.dados.push(valor.notas[0]);
         candidatosService.comparativo.legenda.push(valor.nome);
+
+        candidatosService.cores.push(valor.cor);
 
         candidatosService.testeCego.dados.push(valor.notas[1]);
         candidatosService.testeCego.legenda.push(valor.nome);
