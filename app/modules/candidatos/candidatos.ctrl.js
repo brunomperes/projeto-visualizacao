@@ -16,6 +16,6 @@ angular.module('projetobrasil.dados.candidatos.controllers', [])
 
     $scope.$watch('candidatos', function (newVal) {
       candidatosServ.extraiDadosPorAvaliacao();
-    }, true);
+    }, true)
 
   }]);

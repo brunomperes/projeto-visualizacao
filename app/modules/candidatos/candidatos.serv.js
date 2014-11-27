@@ -490,27 +490,5 @@ angular.module('projetobrasil.dados.candidatos.services', [])
 
   candidatosService.extraiDadosPorAvaliacao();
 
-  // candidatosService.carregaDados = function(callback){
-  //   console.log('carregando');
-  //   $http.get('modules/candidatos/medias-candidatos.json')
-  //    .then(function(res){
-  //       console.log('carregado');
-  //       console.log(res.data);
-  //       candidatosService.medias = res.data;
-  //       callback(candidatosService.medias);
-  //     });
-  // };
-
-  // function extraiPropostas(){
-  //   for (var i = candidatosService.propostas.length - 1; i >= 0; i--) {
-  //     if (candidatosService.propostas[i].politicians_id == 'Eduardo Jorge'){
-  //       candidatosService.eduardo.propostas.push(candidatosService.propostas[i]);
-  //       if (candidatosService.propostas[i].tema == 'Meio ambiente'){
-  //         candidatosService.eduardo.meioAmbiente = {};
-  //       }
-  //     }
-  //   }
-  // }
-
   return candidatosService;
 }]);

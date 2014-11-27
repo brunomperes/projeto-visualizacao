@@ -7,8 +7,6 @@ angular.module('projetobrasil.dados.candidatos.directives', [])
       replace: false,
       link: function (scope, element, attrs) {
 
-          var colorscale = d3.scale.category10();
-
           var w = $(element[0]).parent().width()-300,
             h = $(element[0]).parent().width()-300;
 
@@ -21,13 +19,16 @@ angular.module('projetobrasil.dados.candidatos.directives', [])
             ExtraWidthX: 200
           };
 
-          geraVisualizacao();
+          var colorscale = d3.scale.category10();
 
           if (attrs.legenda !== undefined){
-            scope.$watch(attrs, function(){
-              console.log(attrs.dadosCandidato[0]);
+            // Monitora o scope herdado do pai da diretiva
+            scope.$watch('candidatos', function(newValue){
+              geraVisualizacao();
             }, true);
           }
+
+          geraVisualizacao();
 
           function geraVisualizacao() {
             //Legend titles
@@ -39,7 +40,6 @@ angular.module('projetobrasil.dados.candidatos.directives', [])
 
             //Data
             var d = JSON.parse(attrs.dadosCandidato);
-            console.log(d.length);
 
             //Call function to draw the Radar chart
             //Will expect that data is in %'s
