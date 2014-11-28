@@ -18,6 +18,7 @@ angular
     'ui.router',
     'projetobrasil.dados.main',
     'projetobrasil.dados.root',
+    'projetobrasil.dados.diferencas',
     'projetobrasil.dados.candidatos',
     'projetobrasil.dados.propostas'
   ])
