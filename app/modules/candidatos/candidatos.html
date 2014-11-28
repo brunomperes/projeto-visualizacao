@@ -3,26 +3,31 @@
 <div class="container marketing">
   <div class="row">
     <div class="col-lg-12">
-      <h3>Comparativo de candidatos</h3>
-      <div class="checkbox" ng-repeat="candidato in candidatos">
-        <label>
-        <input type="checkbox" ng-model="candidato.selecionado" ng-change="atualizaCheckbox()">{{candidato.nome}}</input>
-         </label>
+      <h2 class="page-header">Desempenho dos candidatos</h2>
+      <div class="well">
+        <strong>Escolha os candidatos que deseja comprar:</strong><br>
+        <div class="checkbox" ng-repeat="candidato in candidatos">
+          <label>
+          <input type="checkbox" ng-model="candidato.selecionado" ng-change="atualizaCheckbox()">{{candidato.nome}}</input>
+           </label>
+        </div>
       </div>
     </div>
     <div class="col-lg-6">
-      <p>Notas no Comparativo de Propostas</p>
+      <h3 class="text-center">Desempenho no Comparativo de Propostas</h3><br><br>
       <grafico-radar dados-candidato="{{comparativo.dados}}" legenda="{{comparativo.legenda}}" cores="{{cores}}"></grafico-radar>
     </div>
     <div class="col-lg-6">
-      <p>Notas Médias no Teste cego</p>
+      <h3 class="text-center">Desempenho no Teste cego</h3><br>
       <grafico-radar dados-candidato="{{testeCego.dados}}" legenda="{{testeCego.legenda}}" cores="{{cores}}"></grafico-radar>
     </div>
   </div>
+
   <hr>
+
   <div class="row">
     <div class="col-lg-6" ng-repeat="(key, candidato) in candidatos | filter:{selecionado:'true'}">
-      <p>{{candidato.nome}}</p>
+      <h3 class="text-center">{{candidato.nome}}</h3><br>
       <grafico-radar dados-candidato="{{candidato.notas}}"></grafico-radar>
     </div>
   </div>
