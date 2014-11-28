@@ -8,10 +8,6 @@
  * Controller of the projetobrasil.dados.propostas
  */
 angular.module('projetobrasil.dados.propostas.controllers', [])
-  .controller('PropostasCtrl', ['$scope', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('PropostasCtrl', ['$scope', 'propostasServ', function ($scope, propostasServ) {
+    $scope.propostas = propostasServ.propostas;
   }]);

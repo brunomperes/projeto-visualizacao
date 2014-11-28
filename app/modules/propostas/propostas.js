@@ -1,16 +1,21 @@
 'use strict';
 
 angular
-  .module('projetobrasil.dados.generic', [
-    'projetobrasil.dados.generic.controllers',
-    'projetobrasil.dados.generic.services',
-    'projetobrasil.dados.generic.directives'
+  .module('projetobrasil.dados.propostas', [
+    'projetobrasil.dados.propostas.controllers',
+    'projetobrasil.dados.propostas.services',
+    'projetobrasil.dados.propostas.directives'
   ])
   .config(function($stateProvider){
     $stateProvider
-      .state('generic', {
-        url: '/generic',
-        templateUrl: 'modules/generic/generic.html',
-        controller: 'GenericCtrl'
+      .state('propostas', {
+        url: '/propostas',
+        parent: 'root',
+        views: {
+          '@': {
+              templateUrl: 'modules/propostas/propostas.html',
+              controller: 'PropostasCtrl',
+          }
+        }
       });
   });
