@@ -13,5 +13,10 @@ angular.module('projetobrasil.dados.candidatos.controllers', [])
     $scope.candidatos = candidatosServ.medias;
     $scope.comparativo = candidatosServ.comparativo;
     $scope.testeCego = candidatosServ.testeCego;
+    $scope.cores = candidatosServ.cores;
+
+    $scope.$watch('candidatos', function (newVal) {
+      candidatosServ.extraiDadosPorAvaliacao();
+    }, true)
 
   }]);

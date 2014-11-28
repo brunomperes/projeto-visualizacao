@@ -18,7 +18,8 @@ angular
     'ui.router',
     'projetobrasil.dados.main',
     'projetobrasil.dados.root',
-    'projetobrasil.dados.candidatos'
+    'projetobrasil.dados.candidatos',
+    'projetobrasil.dados.propostas'
   ])
   .config(function($urlRouterProvider){
     $urlRouterProvider.otherwise('/');
