@@ -8,10 +8,11 @@
  * Controller of the projetobrasil.dados.diferencas
  */
 angular.module('projetobrasil.dados.diferencas.controllers', [])
-  .controller('DiferencasCtrl', ['$scope', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('DiferencasCtrl', ['$scope', 'diferencasServ', function ($scope, diferencasServ) {
+  	
+  	$scope.nomeCandidato = 'eduardo';
+    $scope.candidato = diferencasServ.eduardo;
+
+    $scope.temas = diferencasServ.temas;
+    $scope.nomes = diferencasServ.nomesCandidatos;
   }]);

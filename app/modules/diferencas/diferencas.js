@@ -10,7 +10,12 @@ angular
     $stateProvider
       .state('diferencas', {
         url: '/diferencas',
-        templateUrl: 'modules/diferencas/diferencas.html',
-        controller: 'DiferencasCtrl'
+        parent: 'root',
+        views: {
+          '@': {
+              templateUrl: 'modules/diferencas/diferencas.html',
+              controller: 'DiferencasCtrl',
+          }
+        }
       });
   });

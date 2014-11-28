@@ -4,8 +4,8 @@ angular.module('projetobrasil.dados.diferencas.services', [])
 .factory('diferencasServ', [function(){
   var diferencasService = {
   	
-  	eduardo: [
-  		testeCego : [
+  	eduardo: {
+  		testeCego : {
   				'cultura' : [
   					{'name':'Dilma','value':-3.58},
 	  				{'name':'Marina','value':-3.52},
@@ -198,9 +198,9 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.25},
             {'name':'Zé Maria','value':0.02}
   				]
-  		],
+  		},
 
-  		comparativo : [
+  		comparativo : {
   				'cultura' : [
             {'name':'Dilma','value':-3.23},
             {'name':'Marina','value':-3.88},
@@ -393,11 +393,11 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.57},
             {'name':'Zé Maria','value':-0.2}
   				]
-  		]
-  	],
+  		}
+  	},
 
-  	dilma: [
-  		testeCego : [
+  	dilma: {
+  		testeCego : {
   				'cultura' : [
             {'name':'Eduardo','value':3.58},
             {'name':'Marina','value':0.06},
@@ -590,9 +590,9 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.58},
             {'name':'Zé Maria','value':0.35}
   				]
-  		],
+  		},
 
-  		comparativo : [
+  		comparativo : {
   				'cultura' : [
             {'name':'Eduardo','value':3.23},
             {'name':'Marina','value':-0.65},
@@ -785,11 +785,11 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.86},
             {'name':'Zé Maria','value':0.09}
   				]
-  		]
-  	],
+  		}
+  	},
 
-  	marina: [
-  		testeCego : [
+  	marina: {
+  		testeCego : {
   				'cultura' : [
             {'name':'Eduardo','value':3.52},
             {'name':'Dilma','value':-0.06},
@@ -982,9 +982,9 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.35},
             {'name':'Zé Maria','value':0.12}
   				]
-  		],
+  		},
 
-  		comparativo : [
+  		comparativo : {
   				'cultura' : [
             {'name':'Eduardo','value':3.88},
             {'name':'Dilma','value':0.65},
@@ -1177,11 +1177,11 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.94},
             {'name':'Zé Maria','value':0.17}
   				]
-  		]
-  	],
+  		}
+  	},
 
-  	fidelix: [
-  		testeCego : [
+  	fidelix: {
+  		testeCego : {
   				'cultura' : [
             {'name':'Eduardo','value':0},
             {'name':'Marina','value':-3.52},
@@ -1374,9 +1374,9 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.15},
             {'name':'Zé Maria','value':-0.09}
   				]
-  		],
+  		},
 
-  		comparativo : [
+  		comparativo : {
   				'cultura' : [
             {'name':'Eduardo','value':0},
             {'name':'Marina','value':-3.88},
@@ -1569,11 +1569,11 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.84},
             {'name':'Zé Maria','value':0.06}
   				]
-  		]
-  	],
+  		}
+  	},
 
-  	aecio: [
-  		testeCego : [
+  	aecio: {
+  		testeCego : {
   				'cultura' : [
             {'name':'Eduardo','value':3.64},
             {'name':'Marina','value':0.12},
@@ -1766,9 +1766,9 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.35},
             {'name':'Zé Maria','value':0.12}
   				]
-  		],
+  		},
 
-  		comparativo : [
+  		comparativo : {
   				'cultura' : [
             {'name':'Eduardo','value':3.9},
             {'name':'Marina','value':0.02},
@@ -1961,11 +1961,11 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.9},
             {'name':'Zé Maria','value':0.13}
   				]
-  		]
-  	],
+  		}
+  	},
 
-  	luciana: [
-  		testeCego : [
+  	luciana: {
+  		testeCego : {
   				'cultura' : [
             {'name':'Eduardo','value':0},
             {'name':'Marina','value':-3.52},
@@ -2158,9 +2158,9 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.81},
             {'name':'Zé Maria','value':0.58}
   				]
-  		],
+  		},
 
-  		comparativo : [
+  		comparativo : {
   				'cultura' : [
             {'name':'Eduardo','value':0},
             {'name':'Marina','value':-3.88},
@@ -2353,11 +2353,11 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':2.46},
             {'name':'Zé Maria','value':0.69}
   				]
-  		]
-  	],
+  		}
+  	},
 
-  	eymael: [
-  		testeCego : [
+  	eymael: {
+  		testeCego : {
   				'cultura' : [
             {'name':'Eduardo','value':3.64},
             {'name':'Marina','value':0.12},
@@ -2550,9 +2550,9 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.7},
             {'name':'Zé Maria','value':0.46}
   				]
-  		],
+  		},
 
-  		comparativo : [
+  		comparativo : {
   				'cultura' : [
             {'name':'Eduardo','value':3.61},
             {'name':'Marina','value':-0.27},
@@ -2745,11 +2745,11 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.95},
             {'name':'Zé Maria','value':0.18}
   				]
-  		]
-  	],
+  		}
+  	},
 
-  	everaldo: [
-  		testeCego : [
+  	everaldo: {
+  		testeCego : {
   				'cultura' : [
             {'name':'Eduardo','value':3.44},
             {'name':'Marina','value':-0.08},
@@ -2942,9 +2942,9 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.14},
             {'name':'Zé Maria','value':-0.1}
   				]
-  		],
+  		},
 
-  		comparativo : [
+  		comparativo : {
   				'cultura' : [
             {'name':'Eduardo','value':4.1},
             {'name':'Marina','value':0.21},
@@ -3137,11 +3137,11 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':2.69},
             {'name':'Zé Maria','value':0.92}
   				]
-  		]
-  	],
+  		}
+  	},
 
-  	mauro: [
-  		testeCego : [
+  	mauro: {
+  		testeCego : {
   				'cultura' : [
             {'name':'Eduardo','value':3.62},
             {'name':'Marina','value':0.1},
@@ -3334,9 +3334,9 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.35},
             {'name':'Zé Maria','value':-0.58}
   				]
-  		],
+  		},
 
-  		comparativo : [
+  		comparativo : {
   				'cultura' : [
             {'name':'Eduardo','value':2.08},
             {'name':'Marina','value':-1.8},
@@ -3529,11 +3529,11 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':2.39},
             {'name':'Zé Maria','value':0.61}
   				]
-  		]
-  	],
+  		}
+  	},
 
-  	rui: [
-  		testeCego : [
+  	rui: {
+  		testeCego : {
   				'cultura' : [
             {'name':'Eduardo','value':2.86},
             {'name':'Marina','value':-0.66},
@@ -3726,9 +3726,9 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':-0.58},
             {'name':'Zé Maria','value':-0.23}
   				]
-  		],
+  		},
 
-  		comparativo : [
+  		comparativo : {
   				'cultura' : [
             {'name':'Eduardo','value':3.23},
             {'name':'Marina','value':-0.66},
@@ -3921,11 +3921,11 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':-4.09},
             {'name':'Zé Maria','value':-4.06}
   				]
-  		]
-  	],
+  		}
+  	},
 
-  	zeMaria: [
-  		testeCego : [
+  	zeMaria: {
+  		testeCego : {
   				'cultura' : [
             {'name':'Eduardo','value':0},
             {'name':'Marina','value':-3.52},
@@ -4118,9 +4118,9 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.23},
             {'name':'Zé Maria','value':0}
   				]
-  		],
+  		},
 
-  		comparativo : [
+  		comparativo : {
   				'cultura' : [
             {'name':'Eduardo','value':0},
             {'name':'Marina','value':-3.88},
@@ -4313,10 +4313,11 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.77},
             {'name':'Zé Maria','value':0}
   				]
-  		]
-  	]
-
-  };
+  		}
+  	}
+};
+  diferencasService.temas = ['cultura', 'democracia', 'desenvolvimentoEconomico'];
+  diferencasService.nomesCandidatos = {'eduardo' : 'Eduardo Jorge'};
 
   return diferencasService;
-});
+}]);
