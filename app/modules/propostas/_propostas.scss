@@ -1,74 +1,76 @@
-.node {
-  cursor: pointer;
-}
+.propostas{
+  .node {
+    cursor: pointer;
+  }
 
-.node:hover {
-  stroke: #000;
-  stroke-width: 2.0px;
-}
+  .node:hover {
+    stroke: #000;
+    stroke-width: 2.0px;
+  }
 
-/*.node--leaf {
-  fill: white;
-}
-*/
+  /*.node--leaf {
+    fill: white;
+  }
+  */
 
-.node[theme="Cultura e Turismo"]{
-  fill: rgba(140, 213, 0, 0.7);
-}
-.node[theme="Democracia e Reforma Política"]{
-  fill: rgba(200, 131, 255, 0.7);
-}
-.node[theme="Desenvolvimento Econômico"]{
-  fill: rgba(23, 162, 220, 0.7);
-}
-.node[theme="Direitos Humanos e Inclusão social"]{
-  fill: rgba(217, 27, 139, 0.7);
-}
-.node[theme="Educação"]{
-  fill: rgba(101, 45, 144, 0.7);
-}
-.node[theme="Esporte e lazer"]{
-  fill: rgba(94, 50, 9, 0.7);
-}
-.node[theme="Gestão Pública"]{
-  fill: rgba(237, 29, 36, 0.7);
-}
-.node[theme="Infraestrutura"]{
-  fill: rgba(6, 32, 132, 0.7);
-}
-.node[theme="Liberdades civis"]{
-  fill: rgba(26, 228, 183, 0.7);
-}
-.node[theme="Segurança Pública"]{
-  fill: rgba(246, 164, 28, 0.7);
-}
-.node[theme="Meio-ambiente"]{
-  fill: rgba(56, 153, 12, 0.7);
-}
-.node[theme="Política Econômica"]{
-  fill: rgba(46, 40, 29, 0.7);
-}
-.node[theme="Política Externa e Defesa Nacional"]{
-  fill: rgba(255, 205, 6, 0.7);
-}
-.node[theme="Políticas Sociais"]{
-  fill: rgba(149, 149, 149, 0.7);
-}
-.node[theme="Saúde"]{
-  fill: rgba(255, 171, 236, 0.7);
-}
-.node[theme="Outros"]{
-  fill: rgba(26, 228, 183, 0.7);
-}
+  .node[theme="Cultura e Turismo"]{
+    fill: rgba(140, 213, 0, 0.7);
+  }
+  .node[theme="Democracia e Reforma Política"]{
+    fill: rgba(200, 131, 255, 0.7);
+  }
+  .node[theme="Desenvolvimento Econômico"]{
+    fill: rgba(23, 162, 220, 0.7);
+  }
+  .node[theme="Direitos Humanos e Inclusão social"]{
+    fill: rgba(217, 27, 139, 0.7);
+  }
+  .node[theme="Educação"]{
+    fill: rgba(101, 45, 144, 0.7);
+  }
+  .node[theme="Esporte e lazer"]{
+    fill: rgba(94, 50, 9, 0.7);
+  }
+  .node[theme="Gestão Pública"]{
+    fill: rgba(237, 29, 36, 0.7);
+  }
+  .node[theme="Infraestrutura"]{
+    fill: rgba(6, 32, 132, 0.7);
+  }
+  .node[theme="Liberdades civis"]{
+    fill: rgba(26, 228, 183, 0.7);
+  }
+  .node[theme="Segurança Pública"]{
+    fill: rgba(246, 164, 28, 0.7);
+  }
+  .node[theme="Meio-ambiente"]{
+    fill: rgba(56, 153, 12, 0.7);
+  }
+  .node[theme="Política Econômica"]{
+    fill: rgba(46, 40, 29, 0.7);
+  }
+  .node[theme="Política Externa e Defesa Nacional"]{
+    fill: rgba(255, 205, 6, 0.7);
+  }
+  .node[theme="Políticas Sociais"]{
+    fill: rgba(149, 149, 149, 0.7);
+  }
+  .node[theme="Saúde"]{
+    fill: rgba(255, 171, 236, 0.7);
+  }
+  .node[theme="Outros"]{
+    fill: rgba(26, 228, 183, 0.7);
+  }
 
-.label {
-  font: 15px bold "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-anchor: middle;
-  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
-}
+  .label {
+    font: 15px bold "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-anchor: middle;
+    text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+  }
 
-.label,
-.node--root,
-.node--leaf {
-  pointer-events: none;
+  .label,
+  .node--root,
+  .node--leaf {
+    pointer-events: none;
+  }
 }

@@ -1,24 +1,26 @@
-.bar.positive {
-  fill: steelblue;
-}
+.diferencas{
+  .bar.positive {
+    fill: steelblue;
+  }
 
-.bar.negative {
-  fill: brown;
-}
+  .bar.negative {
+    fill: brown;
+  }
 
-.axis text {
-  font: 10px sans-serif;
-}
+  .axis text {
+    font: 10px sans-serif;
+  }
 
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
 
-g text {
-  fill: black;
-  font: 10px sans-serif;
-  text-anchor: end;
+  g text {
+    fill: black;
+    font: 10px sans-serif;
+    text-anchor: end;
+  }
 }
