@@ -6,7 +6,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
   	
   	eduardo: {
   		testeCego : {
-  				'cultura' : [
+  				'Cultura e Turismo' : [
   					{'name':'Dilma','value':-3.58},
 	  				{'name':'Marina','value':-3.52},
 	  				{'name':'Levy Fidélix','value':0},
@@ -18,7 +18,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
 	  				{'name':'Rui Costa Pimenta','value':-2.86},
 	  				{'name':'Zé Maria','value':0}
   				],
-  				'democracia' :	[
+  				'Democracia e Reforma Política' :	[
   					{'name':'Dilma','value':-0.49},
             {'name':'Marina','value':0.05},
             {'name':'Levy Fidélix','value':0.06},
@@ -30,7 +30,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.33},
             {'name':'Zé Maria','value':-0.33}
   				],
-  				'desenvolvimentoEconomico' : [
+  				'Desenvolvimento Econômico' : [
   					{'name':'Dilma','value':-0.36},
             {'name':'Marina','value':-0.25},
             {'name':'Levy Fidélix','value':0.16},
@@ -42,7 +42,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.9},
             {'name':'Zé Maria','value':3.43}
   				],
-  				'direitosHumanos' : [
+  				'Direitos Humanos e Inclusão Social' : [
             {'name':'Dilma','value':0.1},
             {'name':'Marina','value':0.16},
             {'name':'Levy Fidélix','value':3.52},
@@ -54,7 +54,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.4},
             {'name':'Zé Maria','value':0.28}
   				],
-  				'educacao' : [
+  				'Educação' : [
             {'name':'Dilma','value':-0.01},
             {'name':'Marina','value':0.1},
             {'name':'Levy Fidélix','value':0.11},
@@ -66,7 +66,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.83},
             {'name':'Zé Maria','value':-0.05}
   				],
-  				'esporte' : [
+  				'Esporte e Lazer' : [
             {'name':'Dilma','value':-3.11},
             {'name':'Marina','value':0},
             {'name':'Levy Fidélix','value':0},
@@ -78,7 +78,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0},
             {'name':'Zé Maria','value':0}
   				],
-  				'gestaoPublica' : [
+  				'Gestão Pública' : [
             {'name':'Dilma','value':-0.16},
             {'name':'Marina','value':0.28},
             {'name':'Levy Fidélix','value':1.78},
@@ -90,7 +90,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.01},
             {'name':'Zé Maria','value':1.29}
   				],
-  				'infraestrutura' : [
+  				'Infraestrutura' : [
             {'name':'Dilma','value':-0.34},
             {'name':'Marina','value':-0.3},
             {'name':'Levy Fidélix','value':0.12},
@@ -102,7 +102,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.58},
             {'name':'Zé Maria','value':-0.4}
   				],
-  				'liberdadesCivis' : [
+  				'Liberdades Civis' : [
             {'name':'Dilma','value':3.3},
             {'name':'Marina','value':3.3},
             {'name':'Levy Fidélix','value':3.3},
@@ -114,7 +114,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.07},
             {'name':'Zé Maria','value':-0.21}
   				],
-  				'meioAmbiente' : [
+  				'Meio Ambiente' : [
             {'name':'Dilma','value':-0.48},
             {'name':'Marina','value':-0.63},
             {'name':'Levy Fidélix','value':3.15},
@@ -126,7 +126,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.15},
             {'name':'Zé Maria','value':3.15}
   				],
-  				'outros' : [
+  				'Outros' : [
             {'name':'Dilma','value':3.62},
             {'name':'Marina','value':0.08},
             {'name':'Levy Fidélix','value':0.57},
@@ -138,7 +138,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.62},
             {'name':'Zé Maria','value':1.14}
   				],
-  				'politicaEconomica' : [
+  				'Política Econômica' : [
             {'name':'Dilma','value':-0.56},
             {'name':'Marina','value':-0.43},
             {'name':'Levy Fidélix','value':-0.15},
@@ -150,7 +150,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.55},
             {'name':'Zé Maria','value':0.39}
   				],
-  				'politicaExterna' : [
+  				'Política Externa e Defesa Social' : [
             {'name':'Dilma','value':-0.4},
             {'name':'Marina','value':-0.25},
             {'name':'Levy Fidélix','value':-0.16},
@@ -162,7 +162,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.03},
             {'name':'Zé Maria','value':3.03}
   				],
-  				'segurancaPublica' : [
+  				'Segurança Pública' : [
             {'name':'Dilma','value':-0.54},
             {'name':'Marina','value':-0.4},
             {'name':'Levy Fidélix','value':-0.02},
@@ -174,7 +174,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.41},
             {'name':'Zé Maria','value':0.33}
   				],
-  				'politicasSociais' : [
+  				'Políticas Sociais' : [
             {'name':'Dilma','value':-3.4},
             {'name':'Marina','value':-3.68},
             {'name':'Levy Fidélix','value':-3.1},
@@ -186,7 +186,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-2.74},
             {'name':'Zé Maria','value':-3.75}
   				],
-  				'saude' : [
+  				'Saúde' : [
             {'name':'Dilma','value':-0.33},
             {'name':'Marina','value':-0.1},
             {'name':'Levy Fidélix','value':0.1},
@@ -201,7 +201,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
   		},
 
   		comparativo : {
-  				'cultura' : [
+  				'Cultura e Turismo' : [
             {'name':'Dilma','value':-3.23},
             {'name':'Marina','value':-3.88},
             {'name':'Levy Fidélix','value':0},
@@ -213,7 +213,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-3.23},
             {'name':'Zé Maria','value':0}
   				],
-  				'democracia' :	[
+  				'Democracia e Reforma Política' :	[
             {'name':'Dilma','value':-0.35},
             {'name':'Marina','value':-0.36},
             {'name':'Levy Fidélix','value':0.43},
@@ -225,7 +225,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.04},
             {'name':'Zé Maria','value':-0.74}
   				],
-  				'desenvolvimentoEconomico' : [
+  				'Desenvolvimento Econômico' : [
             {'name':'Dilma','value':-0.41},
             {'name':'Marina','value':-0.56},
             {'name':'Levy Fidélix','value':-0.27},
@@ -237,7 +237,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':2.35},
             {'name':'Zé Maria','value':3.43}
   				],
-  				'direitosHumanos' : [
+  				'Direitos Humanos e Inclusão Social' : [
             {'name':'Dilma','value':-0.66},
             {'name':'Marina','value':-0.04},
             {'name':'Levy Fidélix','value':3.52},
@@ -249,7 +249,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.06},
             {'name':'Zé Maria','value':-0.35}
   				],
-  				'educacao' : [
+  				'Educação' : [
             {'name':'Dilma','value':-0.45},
             {'name':'Marina','value':-0.26},
             {'name':'Levy Fidélix','value':0.46},
@@ -261,7 +261,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.78},
             {'name':'Zé Maria','value':-0.1}
   				],
-  				'esporte' : [
+  				'Esporte e Lazer' : [
             {'name':'Dilma','value':-3.37},
             {'name':'Marina','value':0},
             {'name':'Levy Fidélix','value':0},
@@ -273,7 +273,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0},
             {'name':'Zé Maria','value':0}
   				],
-  				'gestaoPublica' : [
+  				'Gestão Pública' : [
             {'name':'Dilma','value':-0.24},
             {'name':'Marina','value':-0.41},
             {'name':'Levy Fidélix','value':3.72},
@@ -285,7 +285,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.47},
             {'name':'Zé Maria','value':0.44}
   				],
-  				'infraestrutura' : [
+  				'Infraestrutura' : [
             {'name':'Dilma','value':-0.36},
             {'name':'Marina','value':-0.49},
             {'name':'Levy Fidélix','value':0.29},
@@ -297,7 +297,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.52},
             {'name':'Zé Maria','value':-0.69}
   				],
-  				'liberdadesCivis' : [
+  				'Liberdades Civis' : [
             {'name':'Dilma','value':3.3},
             {'name':'Marina','value':3.3},
             {'name':'Levy Fidélix','value':3.3},
@@ -309,7 +309,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.5},
             {'name':'Zé Maria','value':-0.73}
   				],
-  				'meioAmbiente' : [
+  				'Meio Ambiente' : [
             {'name':'Dilma','value':-0.26},
             {'name':'Marina','value':-1.25},
             {'name':'Levy Fidélix','value':3.15},
@@ -321,7 +321,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.15},
             {'name':'Zé Maria','value':3.15}
   				],
-  				'outros' : [
+  				'Outros' : [
             {'name':'Dilma','value':3.62},
             {'name':'Marina','value':-0.38},
             {'name':'Levy Fidélix','value':-0.88},
@@ -333,7 +333,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.62},
             {'name':'Zé Maria','value':-0.09}
   				],
-  				'politicaEconomica' : [
+  				'Política Econômica' : [
             {'name':'Dilma','value':0.46},
             {'name':'Marina','value':-0.3},
             {'name':'Levy Fidélix','value':-0.13},
@@ -345,7 +345,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.64},
             {'name':'Zé Maria','value':-0.32}
   				],
-  				'politicaExterna' : [
+  				'Política Externa e Defesa Social' : [
             {'name':'Dilma','value':-0.81},
             {'name':'Marina','value':-0.83},
             {'name':'Levy Fidélix','value':-1.97},
@@ -357,7 +357,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.03},
             {'name':'Zé Maria','value':3.03}
   				],
-  				'segurancaPublica' : [
+  				'Segurança Pública' : [
             {'name':'Dilma','value':0.46},
             {'name':'Marina','value':-0.75},
             {'name':'Levy Fidélix','value':-1.08},
@@ -369,7 +369,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.26},
             {'name':'Zé Maria','value':-0.93}
   				],
-  				'politicasSociais' : [
+  				'Políticas Sociais' : [
             {'name':'Dilma','value':-4.26},
             {'name':'Marina','value':-3.97},
             {'name':'Levy Fidélix','value':-3.5},
@@ -381,7 +381,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.17},
             {'name':'Zé Maria','value':-4.22}
   				],
-  				'saude' : [
+  				'Saúde' : [
             {'name':'Dilma','value':-0.29},
             {'name':'Marina','value':-0.37},
             {'name':'Levy Fidélix','value':-0.27},
@@ -398,7 +398,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
 
   	dilma: {
   		testeCego : {
-  				'cultura' : [
+  				'Cultura e Turismo' : [
             {'name':'Eduardo','value':3.58},
             {'name':'Marina','value':0.06},
             {'name':'Levy Fidélix','value':3.58},
@@ -410,7 +410,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.72},
             {'name':'Zé Maria','value':3.58}
   				],
-  				'democracia' :	[
+  				'Democracia e Reforma Política' :	[
             {'name':'Eduardo','value':0.49},
             {'name':'Marina','value':0.54},
             {'name':'Levy Fidélix','value':0.55},
@@ -422,7 +422,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.82},
             {'name':'Zé Maria','value':0.16}
   				],
-  				'desenvolvimentoEconomico' : [
+  				'Desenvolvimento Econômico' : [
             {'name':'Eduardo','value':0.36},
             {'name':'Marina','value':0.11},
             {'name':'Levy Fidélix','value':0.51},
@@ -434,7 +434,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.26},
             {'name':'Zé Maria','value':3.78}
   				],
-  				'direitosHumanos' : [
+  				'Direitos Humanos e Inclusão Social' : [
             {'name':'Eduardo','value':-0.1},
             {'name':'Marina','value':0.06},
             {'name':'Levy Fidélix','value':3.42},
@@ -446,7 +446,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.3},
             {'name':'Zé Maria','value':0.18}
   				],
-  				'educacao' : [
+  				'Educação' : [
             {'name':'Eduardo','value':0.01},
             {'name':'Marina','value':0.11},
             {'name':'Levy Fidélix','value':0.12},
@@ -458,7 +458,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.84},
             {'name':'Zé Maria','value':-0.04}
   				],
-  				'esporte' : [
+  				'Esporte e Lazer' : [
             {'name':'Eduardo','value':3.11},
             {'name':'Marina','value':3.11},
             {'name':'Levy Fidélix','value':3.11},
@@ -470,7 +470,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.11},
             {'name':'Zé Maria','value':3.11}
   				],
-  				'gestaoPublica' : [
+  				'Gestão Pública' : [
             {'name':'Eduardo','value':0.16},
             {'name':'Marina','value':0.44},
             {'name':'Levy Fidélix','value':1.94},
@@ -482,7 +482,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.17},
             {'name':'Zé Maria','value':1.46}
   				],
-  				'infraestrutura' : [
+  				'Infraestrutura' : [
             {'name':'Eduardo','value':0.34},
             {'name':'Marina','value':0.04},
             {'name':'Levy Fidélix','value':0.46},
@@ -494,7 +494,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.24},
             {'name':'Zé Maria','value':-0.06}
   				],
-  				'liberdadesCivis' : [
+  				'Liberdades Civis' : [
             {'name':'Eduardo','value':-3.3},
             {'name':'Marina','value':0},
             {'name':'Levy Fidélix','value':0},
@@ -506,7 +506,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-3.37},
             {'name':'Zé Maria','value':-3.51}
   				],
-  				'meioAmbiente' : [
+  				'Meio Ambiente' : [
             {'name':'Eduardo','value':0.48},
             {'name':'Marina','value':-0.15},
             {'name':'Levy Fidélix','value':3.64},
@@ -518,7 +518,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.64},
             {'name':'Zé Maria','value':3.64}
   				],
-  				'outros' : [
+  				'Outros' : [
             {'name':'Eduardo','value':-3.62},
             {'name':'Marina','value':-3.54},
             {'name':'Levy Fidélix','value':-3.06},
@@ -530,7 +530,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0},
             {'name':'Zé Maria','value':-2.49}
   				],
-  				'politicaEconomica' : [
+  				'Política Econômica' : [
             {'name':'Eduardo','value':0.56},
             {'name':'Marina','value':0.13},
             {'name':'Levy Fidélix','value':0.41},
@@ -542,7 +542,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.11},
             {'name':'Zé Maria','value':0.95}
   				],
-  				'politicaExterna' : [
+  				'Política Externa e Defesa Social' : [
             {'name':'Eduardo','value':0.4},
             {'name':'Marina','value':0.15},
             {'name':'Levy Fidélix','value':0.24},
@@ -554,7 +554,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.43},
             {'name':'Zé Maria','value':3.43}
   				],
-  				'segurancaPublica' : [
+  				'Segurança Pública' : [
             {'name':'Eduardo','value':0.54},
             {'name':'Marina','value':0.13},
             {'name':'Levy Fidélix','value':0.51},
@@ -566,7 +566,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.95},
             {'name':'Zé Maria','value':0.87}
   				],
-  				'politicasSociais' : [
+  				'Políticas Sociais' : [
             {'name':'Eduardo','value':3.4},
             {'name':'Marina','value':-0.28},
             {'name':'Levy Fidélix','value':0.3},
@@ -578,7 +578,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.65},
             {'name':'Zé Maria','value':-0.36}
   				],
-  				'saude' : [
+  				'Saúde' : [
             {'name':'Eduardo','value':0.33},
             {'name':'Marina','value':0.23},
             {'name':'Levy Fidélix','value':0.44},
@@ -593,7 +593,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
   		},
 
   		comparativo : {
-  				'cultura' : [
+  				'Cultura e Turismo' : [
             {'name':'Eduardo','value':3.23},
             {'name':'Marina','value':-0.65},
             {'name':'Levy Fidélix','value':3.23},
@@ -605,7 +605,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0},
             {'name':'Zé Maria','value':3.23}
   				],
-  				'democracia' :	[
+  				'Democracia e Reforma Política' :	[
             {'name':'Eduardo','value':-0.72},
             {'name':'Marina','value':-0.02},
             {'name':'Levy Fidélix','value':0.77},
@@ -617,7 +617,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.38},
             {'name':'Zé Maria','value':-0.39}
   				],
-  				'desenvolvimentoEconomico' : [
+  				'Desenvolvimento Econômico' : [
             {'name':'Eduardo','value':-0.09},
             {'name':'Marina','value':-0.16},
             {'name':'Levy Fidélix','value':0.13},
@@ -629,7 +629,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':2.75},
             {'name':'Zé Maria','value':3.83}
   				],
-  				'direitosHumanos' : [
+  				'Direitos Humanos e Inclusão Social' : [
             {'name':'Eduardo','value':-0.24},
             {'name':'Marina','value':0.61},
             {'name':'Levy Fidélix','value':4.18},
@@ -641,7 +641,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.72},
             {'name':'Zé Maria','value':0.31}
   				],
-  				'educacao' : [
+  				'Educação' : [
             {'name':'Eduardo','value':-0.22},
             {'name':'Marina','value':0.2},
             {'name':'Levy Fidélix','value':0.91},
@@ -653,7 +653,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.23},
             {'name':'Zé Maria','value':0.36}
   				],
-  				'esporte' : [
+  				'Esporte e Lazer' : [
             {'name':'Eduardo','value':3.37},
             {'name':'Marina','value':3.37},
             {'name':'Levy Fidélix','value':3.37},
@@ -665,7 +665,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.37},
             {'name':'Zé Maria','value':3.37}
   				],
-  				'gestaoPublica' : [
+  				'Gestão Pública' : [
             {'name':'Eduardo','value':-0.73},
             {'name':'Marina','value':-0.17},
             {'name':'Levy Fidélix','value':3.96},
@@ -677,7 +677,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.71},
             {'name':'Zé Maria','value':0.68}
   				],
-  				'infraestrutura' : [
+  				'Infraestrutura' : [
             {'name':'Eduardo','value':-0.57},
             {'name':'Marina','value':-0.12},
             {'name':'Levy Fidélix','value':0.66},
@@ -689,7 +689,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.15},
             {'name':'Zé Maria','value':-0.33}
   				],
-  				'liberdadesCivis' : [
+  				'Liberdades Civis' : [
             {'name':'Eduardo','value':-4.62},
             {'name':'Marina','value':0},
             {'name':'Levy Fidélix','value':0},
@@ -701,7 +701,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-3.8},
             {'name':'Zé Maria','value':-4.03}
   				],
-  				'meioAmbiente' : [
+  				'Meio Ambiente' : [
             {'name':'Eduardo','value':-1.11},
             {'name':'Marina','value':-0.99},
             {'name':'Levy Fidélix','value':3.42},
@@ -713,7 +713,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.42},
             {'name':'Zé Maria','value':3.42}
   				],
-  				'outros' : [
+  				'Outros' : [
             {'name':'Eduardo','value':-4.49},
             {'name':'Marina','value':-4},
             {'name':'Levy Fidélix','value':-4.5},
@@ -725,7 +725,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0},
             {'name':'Zé Maria','value':-3.72}
   				],
-  				'politicaEconomica' : [
+  				'Política Econômica' : [
             {'name':'Eduardo','value':-1.6},
             {'name':'Marina','value':-0.76},
             {'name':'Levy Fidélix','value':-0.59},
@@ -737,7 +737,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.18},
             {'name':'Zé Maria','value':-0.77}
   				],
-  				'politicaExterna' : [
+  				'Política Externa e Defesa Social' : [
             {'name':'Eduardo','value':-0.27},
             {'name':'Marina','value':-0.02},
             {'name':'Levy Fidélix','value':-1.16},
@@ -749,7 +749,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.84},
             {'name':'Zé Maria','value':3.84}
   				],
-  				'segurancaPublica' : [
+  				'Segurança Pública' : [
             {'name':'Eduardo','value':-1.55},
             {'name':'Marina','value':-1.21},
             {'name':'Levy Fidélix','value':-1.54},
@@ -761,7 +761,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.2},
             {'name':'Zé Maria','value':-1.39}
   				],
-  				'politicasSociais' : [
+  				'Políticas Sociais' : [
             {'name':'Eduardo','value':4.26},
             {'name':'Marina','value':0.28},
             {'name':'Levy Fidélix','value':0.76},
@@ -773,7 +773,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':4.09},
             {'name':'Zé Maria','value':0.03}
   				],
-  				'saude' : [
+  				'Saúde' : [
             {'name':'Eduardo','value':-0.61},
             {'name':'Marina','value':-0.08},
             {'name':'Levy Fidélix','value':0.02},
@@ -790,7 +790,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
 
   	marina: {
   		testeCego : {
-  				'cultura' : [
+  				'Cultura e Turismo' : [
             {'name':'Eduardo','value':3.52},
             {'name':'Dilma','value':-0.06},
             {'name':'Levy Fidélix','value':3.52},
@@ -802,7 +802,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.66},
             {'name':'Zé Maria','value':3.52}
   				],
-  				'democracia' :	[
+  				'Democracia e Reforma Política' :	[
             {'name':'Eduardo','value':-0.05},
             {'name':'Dilma','value':-0.54},
             {'name':'Levy Fidélix','value':0},
@@ -814,7 +814,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.28},
             {'name':'Zé Maria','value':-0.38}
   				],
-  				'desenvolvimentoEconomico' : [
+  				'Desenvolvimento Econômico' : [
             {'name':'Eduardo','value':0.25},
             {'name':'Dilma','value':-0.11},
             {'name':'Levy Fidélix','value':0.4},
@@ -826,7 +826,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.15},
             {'name':'Zé Maria','value':3.67}
   				],
-  				'direitosHumanos' : [
+  				'Direitos Humanos e Inclusão Social' : [
             {'name':'Eduardo','value':-0.16},
             {'name':'Dilma','value':-0.06},
             {'name':'Levy Fidélix','value':3.36},
@@ -838,7 +838,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.24},
             {'name':'Zé Maria','value':0.13}
   				],
-  				'educacao' : [
+  				'Educação' : [
             {'name':'Eduardo','value':-0.1},
             {'name':'Dilma','value':-0.11},
             {'name':'Levy Fidélix','value':0.01},
@@ -850,7 +850,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.74},
             {'name':'Zé Maria','value':-0.15}
   				],
-  				'esporte' : [
+  				'Esporte e Lazer' : [
             {'name':'Eduardo','value':0},
             {'name':'Dilma','value':-3.11},
             {'name':'Levy Fidélix','value':0},
@@ -862,7 +862,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0},
             {'name':'Zé Maria','value':0}
   				],
-  				'gestaoPublica' : [
+  				'Gestão Pública' : [
             {'name':'Eduardo','value':-0.28},
             {'name':'Dilma','value':-0.44},
             {'name':'Levy Fidélix','value':1.5},
@@ -874,7 +874,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.73},
             {'name':'Zé Maria','value':1.01}
   				],
-  				'infraestrutura' : [
+  				'Infraestrutura' : [
             {'name':'Eduardo','value':0.3},
             {'name':'Dilma','value':-0.04},
             {'name':'Levy Fidélix','value':0.42},
@@ -886,7 +886,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.28},
             {'name':'Zé Maria','value':-0.1}
   				],
-  				'liberdadesCivis' : [
+  				'Liberdades Civis' : [
             {'name':'Eduardo','value':-3.3},
             {'name':'Dilma','value':0},
             {'name':'Levy Fidélix','value':0},
@@ -898,7 +898,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-3.37},
             {'name':'Zé Maria','value':-3.51}
   				],
-  				'meioAmbiente' : [
+  				'Meio Ambiente' : [
             {'name':'Eduardo','value':0.63},
             {'name':'Dilma','value':0.15},
             {'name':'Levy Fidélix','value':3.79},
@@ -910,7 +910,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.79},
             {'name':'Zé Maria','value':3.79}
   				],
-  				'outros' : [
+  				'Outros' : [
             {'name':'Eduardo','value':-0.08},
             {'name':'Dilma','value':3.54},
             {'name':'Levy Fidélix','value':0.49},
@@ -922,7 +922,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.54},
             {'name':'Zé Maria','value':1.06}
   				],
-  				'politicaEconomica' : [
+  				'Política Econômica' : [
             {'name':'Eduardo','value':0.43},
             {'name':'Dilma','value':-0.13},
             {'name':'Levy Fidélix','value':0.28},
@@ -934,7 +934,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.98},
             {'name':'Zé Maria','value':0.82}
   				],
-  				'politicaExterna' : [
+  				'Política Externa e Defesa Social' : [
             {'name':'Eduardo','value':0.25},
             {'name':'Dilma','value':-0.15},
             {'name':'Levy Fidélix','value':0.09},
@@ -946,7 +946,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.28},
             {'name':'Zé Maria','value':3.28}
   				],
-  				'segurancaPublica' : [
+  				'Segurança Pública' : [
             {'name':'Eduardo','value':0.4},
             {'name':'Dilma','value':-0.13},
             {'name':'Levy Fidélix','value':0.38},
@@ -958,7 +958,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.82},
             {'name':'Zé Maria','value':0.73}
   				],
-  				'politicasSociais' : [
+  				'Políticas Sociais' : [
             {'name':'Eduardo','value':3.68},
             {'name':'Dilma','value':0.28},
             {'name':'Levy Fidélix','value':0.58},
@@ -970,7 +970,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.93},
             {'name':'Zé Maria','value':-0.08}
   				],
-  				'saude' : [
+  				'Saúde' : [
             {'name':'Eduardo','value':0.1},
             {'name':'Dilma','value':-0.23},
             {'name':'Levy Fidélix','value':0.21},
@@ -985,7 +985,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
   		},
 
   		comparativo : {
-  				'cultura' : [
+  				'Cultura e Turismo' : [
             {'name':'Eduardo','value':3.88},
             {'name':'Dilma','value':0.65},
             {'name':'Levy Fidélix','value':3.88},
@@ -997,7 +997,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.66},
             {'name':'Zé Maria','value':3.88}
   				],
-  				'democracia' :	[
+  				'Democracia e Reforma Política' :	[
             {'name':'Eduardo','value':-0.7},
             {'name':'Dilma','value':0.02},
             {'name':'Levy Fidélix','value':0.79},
@@ -1009,7 +1009,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.4},
             {'name':'Zé Maria','value':-0.37}
   				],
-  				'desenvolvimentoEconomico' : [
+  				'Desenvolvimento Econômico' : [
             {'name':'Eduardo','value':0.07},
             {'name':'Dilma','value':0.16},
             {'name':'Levy Fidélix','value':0.29},
@@ -1021,7 +1021,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':2.91},
             {'name':'Zé Maria','value':3.99}
   				],
-  				'direitosHumanos' : [
+  				'Direitos Humanos e Inclusão Social' : [
             {'name':'Eduardo','value':-0.85},
             {'name':'Dilma','value':-0.61},
             {'name':'Levy Fidélix','value':3.56},
@@ -1033,7 +1033,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.1},
             {'name':'Zé Maria','value':-0.31}
   				],
-  				'educacao' : [
+  				'Educação' : [
             {'name':'Eduardo','value':-0.42},
             {'name':'Dilma','value':-0.2},
             {'name':'Levy Fidélix','value':0.72},
@@ -1045,7 +1045,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.04},
             {'name':'Zé Maria','value':0.16}
   				],
-  				'esporte' : [
+  				'Esporte e Lazer' : [
             {'name':'Eduardo','value':0},
             {'name':'Dilma','value':-3.37},
             {'name':'Levy Fidélix','value':0},
@@ -1057,7 +1057,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0},
             {'name':'Zé Maria','value':0}
   				],
-  				'gestaoPublica' : [
+  				'Gestão Pública' : [
             {'name':'Eduardo','value':-0.57},
             {'name':'Dilma','value':0.17},
             {'name':'Levy Fidélix','value':4.13},
@@ -1069,7 +1069,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.88},
             {'name':'Zé Maria','value':0.84}
   				],
-  				'infraestrutura' : [
+  				'Infraestrutura' : [
             {'name':'Eduardo','value':-0.45},
             {'name':'Dilma','value':0.12},
             {'name':'Levy Fidélix','value':0.78},
@@ -1081,7 +1081,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.03},
             {'name':'Zé Maria','value':-0.2}
   				],
-  				'liberdadesCivis' : [
+  				'Liberdades Civis' : [
             {'name':'Eduardo','value':-4.62},
             {'name':'Dilma','value':0},
             {'name':'Levy Fidélix','value':0},
@@ -1093,7 +1093,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-3.8},
             {'name':'Zé Maria','value':-4.03}
   				],
-  				'meioAmbiente' : [
+  				'Meio Ambiente' : [
             {'name':'Eduardo','value':-0.12},
             {'name':'Dilma','value':0.99},
             {'name':'Levy Fidélix','value':4.41},
@@ -1105,7 +1105,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':4.41},
             {'name':'Zé Maria','value':4.41}
   				],
-  				'outros' : [
+  				'Outros' : [
             {'name':'Eduardo','value':-0.49},
             {'name':'Dilma','value':4},
             {'name':'Levy Fidélix','value':-0.5},
@@ -1117,7 +1117,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':4},
             {'name':'Zé Maria','value':0.28}
   				],
-  				'politicaEconomica' : [
+  				'Política Econômica' : [
             {'name':'Eduardo','value':-0.84},
             {'name':'Dilma','value':0.76},
             {'name':'Levy Fidélix','value':0.17},
@@ -1129,7 +1129,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.94},
             {'name':'Zé Maria','value':-0.02}
   				],
-  				'politicaExterna' : [
+  				'Política Externa e Defesa Social' : [
             {'name':'Eduardo','value':-0.25},
             {'name':'Dilma','value':0.02},
             {'name':'Levy Fidélix','value':-1.13},
@@ -1141,7 +1141,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.87},
             {'name':'Zé Maria','value':3.87}
   				],
-  				'segurancaPublica' : [
+  				'Segurança Pública' : [
             {'name':'Eduardo','value':-0.34},
             {'name':'Dilma','value':1.21},
             {'name':'Levy Fidélix','value':-0.33},
@@ -1153,7 +1153,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.01},
             {'name':'Zé Maria','value':-0.18}
   				],
-  				'politicasSociais' : [
+  				'Políticas Sociais' : [
             {'name':'Eduardo','value':3.97},
             {'name':'Dilma','value':-0.28},
             {'name':'Levy Fidélix','value':0.47},
@@ -1165,7 +1165,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.81},
             {'name':'Zé Maria','value':-0.25}
   				],
-  				'saude' : [
+  				'Saúde' : [
             {'name':'Eduardo','value':-0.53},
             {'name':'Dilma','value':0.08},
             {'name':'Levy Fidélix','value':0.1},
@@ -1182,7 +1182,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
 
   	fidelix: {
   		testeCego : {
-  				'cultura' : [
+  				'Cultura e Turismo' : [
             {'name':'Eduardo','value':0},
             {'name':'Marina','value':-3.52},
             {'name':'Levy Fidélix','value':-3.58},
@@ -1194,7 +1194,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-2.86},
             {'name':'Zé Maria','value':0}
   				],
-  				'democracia' :	[
+  				'Democracia e Reforma Política' :	[
             {'name':'Eduardo','value':-0.06},
             {'name':'Marina','value':0},
             {'name':'Levy Fidélix','value':-0.55},
@@ -1206,7 +1206,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.27},
             {'name':'Zé Maria','value':-0.38}
   				],
-  				'desenvolvimentoEconomico' : [
+  				'Desenvolvimento Econômico' : [
             {'name':'Eduardo','value':-0.16},
             {'name':'Marina','value':-0.4},
             {'name':'Levy Fidélix','value':-0.51},
@@ -1218,7 +1218,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.75},
             {'name':'Zé Maria','value':3.27}
   				],
-  				'direitosHumanos' : [
+  				'Direitos Humanos e Inclusão Social' : [
             {'name':'Eduardo','value':-3.52},
             {'name':'Marina','value':-3.36},
             {'name':'Levy Fidélix','value':-3.42},
@@ -1230,7 +1230,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-3.12},
             {'name':'Zé Maria','value':-3.24}
   				],
-  				'educacao' : [
+  				'Educação' : [
             {'name':'Eduardo','value':-0.11},
             {'name':'Marina','value':-0.01},
             {'name':'Levy Fidélix','value':-0.12},
@@ -1242,7 +1242,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.72},
             {'name':'Zé Maria','value':-0.16}
   				],
-  				'esporte' : [
+  				'Esporte e Lazer' : [
             {'name':'Eduardo','value':0},
             {'name':'Marina','value':0},
             {'name':'Levy Fidélix','value':-3.11},
@@ -1254,7 +1254,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0},
             {'name':'Zé Maria','value':0}
   				],
-  				'gestaoPublica' : [
+  				'Gestão Pública' : [
             {'name':'Eduardo','value':-1.78},
             {'name':'Marina','value':-1.5},
             {'name':'Levy Fidélix','value':-1.94},
@@ -1266,7 +1266,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.77},
             {'name':'Zé Maria','value':-0.49}
   				],
-  				'infraestrutura' : [
+  				'Infraestrutura' : [
             {'name':'Eduardo','value':-0.12},
             {'name':'Marina','value':-0.42},
             {'name':'Levy Fidélix','value':-0.46},
@@ -1278,7 +1278,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.7},
             {'name':'Zé Maria','value':-0.52}
   				],
-  				'liberdadesCivis' : [
+  				'Liberdades Civis' : [
             {'name':'Eduardo','value':-3.3},
             {'name':'Marina','value':0},
             {'name':'Levy Fidélix','value':0},
@@ -1290,7 +1290,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-3.37},
             {'name':'Zé Maria','value':-3.51}
   				],
-  				'meioAmbiente' : [
+  				'Meio Ambiente' : [
             {'name':'Eduardo','value':-3.15},
             {'name':'Marina','value':-3.79},
             {'name':'Levy Fidélix','value':-3.64},
@@ -1302,7 +1302,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0},
             {'name':'Zé Maria','value':0}
   				],
-  				'outros' : [
+  				'Outros' : [
             {'name':'Eduardo','value':-0.57},
             {'name':'Marina','value':-0.49},
             {'name':'Levy Fidélix','value':3.06},
@@ -1314,7 +1314,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.06},
             {'name':'Zé Maria','value':0.57}
   				],
-  				'politicaEconomica' : [
+  				'Política Econômica' : [
             {'name':'Eduardo','value':0.15},
             {'name':'Marina','value':-0.28},
             {'name':'Levy Fidélix','value':-0.41},
@@ -1326,7 +1326,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.7},
             {'name':'Zé Maria','value':0.54}
   				],
-  				'politicaExterna' : [
+  				'Política Externa e Defesa Social' : [
             {'name':'Eduardo','value':0.16},
             {'name':'Marina','value':-0.09},
             {'name':'Levy Fidélix','value':-0.24},
@@ -1338,7 +1338,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.19},
             {'name':'Zé Maria','value':3.19}
   				],
-  				'segurancaPublica' : [
+  				'Segurança Pública' : [
             {'name':'Eduardo','value':0.02},
             {'name':'Marina','value':-0.38},
             {'name':'Levy Fidélix','value':-0.51},
@@ -1350,7 +1350,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.44},
             {'name':'Zé Maria','value':0.35}
   				],
-  				'politicasSociais' : [
+  				'Políticas Sociais' : [
             {'name':'Eduardo','value':3.1},
             {'name':'Marina','value':-0.58},
             {'name':'Levy Fidélix','value':-0.3},
@@ -1362,7 +1362,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.35},
             {'name':'Zé Maria','value':-0.66}
   				],
-  				'saude' : [
+  				'Saúde' : [
             {'name':'Eduardo','value':-0.1},
             {'name':'Marina','value':-0.21},
             {'name':'Levy Fidélix','value':-0.44},
@@ -1377,7 +1377,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
   		},
 
   		comparativo : {
-  				'cultura' : [
+  				'Cultura e Turismo' : [
             {'name':'Eduardo','value':0},
             {'name':'Marina','value':-3.88},
             {'name':'Levy Fidélix','value':-3.23},
@@ -1389,7 +1389,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-3.23},
             {'name':'Zé Maria','value':0}
   				],
-  				'democracia' :	[
+  				'Democracia e Reforma Política' :	[
             {'name':'Eduardo','value':-1.49},
             {'name':'Marina','value':-0.79},
             {'name':'Levy Fidélix','value':-0.77},
@@ -1401,7 +1401,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.39},
             {'name':'Zé Maria','value':-1.16}
   				],
-  				'desenvolvimentoEconomico' : [
+  				'Desenvolvimento Econômico' : [
             {'name':'Eduardo','value':-0.22},
             {'name':'Marina','value':-0.29},
             {'name':'Levy Fidélix','value':-0.13},
@@ -1413,7 +1413,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':2.62},
             {'name':'Zé Maria','value':3.7}
   				],
-  				'direitosHumanos' : [
+  				'Direitos Humanos e Inclusão Social' : [
             {'name':'Eduardo','value':-4.41},
             {'name':'Marina','value':-3.56},
             {'name':'Levy Fidélix','value':-4.18},
@@ -1425,7 +1425,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-3.46},
             {'name':'Zé Maria','value':-3.87}
   				],
-  				'educacao' : [
+  				'Educação' : [
             {'name':'Eduardo','value':-1.14},
             {'name':'Marina','value':-0.72},
             {'name':'Levy Fidélix','value':-0.91},
@@ -1437,7 +1437,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.32},
             {'name':'Zé Maria','value':-0.56}
   				],
-  				'esporte' : [
+  				'Esporte e Lazer' : [
             {'name':'Eduardo','value':0},
             {'name':'Marina','value':0},
             {'name':'Levy Fidélix','value':-3.37},
@@ -1449,7 +1449,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0},
             {'name':'Zé Maria','value':0}
   				],
-  				'gestaoPublica' : [
+  				'Gestão Pública' : [
             {'name':'Eduardo','value':-4.7},
             {'name':'Marina','value':-4.13},
             {'name':'Levy Fidélix','value':-3.96},
@@ -1461,7 +1461,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-2.25},
             {'name':'Zé Maria','value':-3.28}
   				],
-  				'infraestrutura' : [
+  				'Infraestrutura' : [
             {'name':'Eduardo','value':-1.23},
             {'name':'Marina','value':-0.78},
             {'name':'Levy Fidélix','value':-0.66},
@@ -1473,7 +1473,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.81},
             {'name':'Zé Maria','value':-0.98}
   				],
-  				'liberdadesCivis' : [
+  				'Liberdades Civis' : [
             {'name':'Eduardo','value':-4.62},
             {'name':'Marina','value':0},
             {'name':'Levy Fidélix','value':0},
@@ -1485,7 +1485,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-3.8},
             {'name':'Zé Maria','value':-4.03}
   				],
-  				'meioAmbiente' : [
+  				'Meio Ambiente' : [
             {'name':'Eduardo','value':-4.53},
             {'name':'Marina','value':-4.41},
             {'name':'Levy Fidélix','value':-3.42},
@@ -1497,7 +1497,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0},
             {'name':'Zé Maria','value':0}
   				],
-  				'outros' : [
+  				'Outros' : [
             {'name':'Eduardo','value':0.01},
             {'name':'Marina','value':0.5},
             {'name':'Levy Fidélix','value':4.5},
@@ -1509,7 +1509,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':4.5},
             {'name':'Zé Maria','value':0.78}
   				],
-  				'politicaEconomica' : [
+  				'Política Econômica' : [
             {'name':'Eduardo','value':-1.01},
             {'name':'Marina','value':-0.17},
             {'name':'Levy Fidélix','value':0.59},
@@ -1521,7 +1521,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.77},
             {'name':'Zé Maria','value':-0.18}
   				],
-  				'politicaExterna' : [
+  				'Política Externa e Defesa Social' : [
             {'name':'Eduardo','value':0.89},
             {'name':'Marina','value':1.13},
             {'name':'Levy Fidélix','value':1.16},
@@ -1533,7 +1533,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':5},
             {'name':'Zé Maria','value':5}
   				],
-  				'segurancaPublica' : [
+  				'Segurança Pública' : [
             {'name':'Eduardo','value':-0.01},
             {'name':'Marina','value':0.33},
             {'name':'Levy Fidélix','value':1.54},
@@ -1545,7 +1545,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.34},
             {'name':'Zé Maria','value':0.14}
   				],
-  				'politicasSociais' : [
+  				'Políticas Sociais' : [
             {'name':'Eduardo','value':3.5},
             {'name':'Marina','value':-0.47},
             {'name':'Levy Fidélix','value':-0.76},
@@ -1557,7 +1557,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.33},
             {'name':'Zé Maria','value':-0.72}
   				],
-  				'saude' : [
+  				'Saúde' : [
             {'name':'Eduardo','value':-0.63},
             {'name':'Marina','value':-0.1},
             {'name':'Levy Fidélix','value':-0.02},
@@ -1574,7 +1574,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
 
   	aecio: {
   		testeCego : {
-  				'cultura' : [
+  				'Cultura e Turismo' : [
             {'name':'Eduardo','value':3.64},
             {'name':'Marina','value':0.12},
             {'name':'Levy Fidélix','value':3.64},
@@ -1586,7 +1586,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.79},
             {'name':'Zé Maria','value':3.64}
   				],
-  				'democracia' :	[
+  				'Democracia e Reforma Política' :	[
             {'name':'Eduardo','value':-0.06},
             {'name':'Marina','value':-0.01},
             {'name':'Levy Fidélix','value':0},
@@ -1598,7 +1598,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.27},
             {'name':'Zé Maria','value':-0.39}
   				],
-  				'desenvolvimentoEconomico' : [
+  				'Desenvolvimento Econômico' : [
             {'name':'Eduardo','value':0.19},
             {'name':'Marina','value':-0.06},
             {'name':'Levy Fidélix','value':0.34},
@@ -1610,7 +1610,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.09},
             {'name':'Zé Maria','value':3.62}
   				],
-  				'direitosHumanos' : [
+  				'Direitos Humanos e Inclusão Social' : [
             {'name':'Eduardo','value':0.11},
             {'name':'Marina','value':0.26},
             {'name':'Levy Fidélix','value':3.63},
@@ -1622,7 +1622,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.5},
             {'name':'Zé Maria','value':0.39}
   				],
-  				'educacao' : [
+  				'Educação' : [
             {'name':'Eduardo','value':-0.12},
             {'name':'Marina','value':-0.02},
             {'name':'Levy Fidélix','value':-0.01},
@@ -1634,7 +1634,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.71},
             {'name':'Zé Maria','value':-0.17}
   				],
-  				'esporte' : [
+  				'Esporte e Lazer' : [
             {'name':'Eduardo','value':3.6},
             {'name':'Marina','value':3.6},
             {'name':'Levy Fidélix','value':3.6},
@@ -1646,7 +1646,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.6},
             {'name':'Zé Maria','value':3.6}
   				],
-  				'gestaoPublica' : [
+  				'Gestão Pública' : [
             {'name':'Eduardo','value':-0.06},
             {'name':'Marina','value':0.22},
             {'name':'Levy Fidélix','value':1.72},
@@ -1658,7 +1658,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.95},
             {'name':'Zé Maria','value':1.23}
   				],
-  				'infraestrutura' : [
+  				'Infraestrutura' : [
             {'name':'Eduardo','value':0.19},
             {'name':'Marina','value':-0.11},
             {'name':'Levy Fidélix','value':0.31},
@@ -1670,7 +1670,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.39},
             {'name':'Zé Maria','value':-0.21}
   				],
-  				'liberdadesCivis' : [
+  				'Liberdades Civis' : [
             {'name':'Eduardo','value':1.7},
             {'name':'Marina','value':5},
             {'name':'Levy Fidélix','value':5},
@@ -1682,7 +1682,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.63},
             {'name':'Zé Maria','value':1.49}
   				],
-  				'meioAmbiente' : [
+  				'Meio Ambiente' : [
             {'name':'Eduardo','value':0.45},
             {'name':'Marina','value':-0.18},
             {'name':'Levy Fidélix','value':3.61},
@@ -1694,7 +1694,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.61},
             {'name':'Zé Maria','value':3.61}
   				],
-  				'outros' : [
+  				'Outros' : [
             {'name':'Eduardo','value':-0.67},
             {'name':'Marina','value':-0.59},
             {'name':'Levy Fidélix','value':-0.11},
@@ -1706,7 +1706,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':2.95},
             {'name':'Zé Maria','value':0.46}
   				],
-  				'politicaEconomica' : [
+  				'Política Econômica' : [
             {'name':'Eduardo','value':0.13},
             {'name':'Marina','value':-0.3},
             {'name':'Levy Fidélix','value':-0.02},
@@ -1718,7 +1718,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.68},
             {'name':'Zé Maria','value':0.52}
   				],
-  				'politicaExterna' : [
+  				'Política Externa e Defesa Social' : [
             {'name':'Eduardo','value':0.9},
             {'name':'Marina','value':0.65},
             {'name':'Levy Fidélix','value':0.74},
@@ -1730,7 +1730,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.93},
             {'name':'Zé Maria','value':3.93}
   				],
-  				'segurancaPublica' : [
+  				'Segurança Pública' : [
             {'name':'Eduardo','value':0.49},
             {'name':'Marina','value':0.09},
             {'name':'Levy Fidélix','value':0.47},
@@ -1742,7 +1742,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.9},
             {'name':'Zé Maria','value':0.82}
   				],
-  				'politicasSociais' : [
+  				'Políticas Sociais' : [
             {'name':'Eduardo','value':3.41},
             {'name':'Marina','value':-0.27},
             {'name':'Levy Fidélix','value':0.31},
@@ -1754,7 +1754,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.66},
             {'name':'Zé Maria','value':-0.34}
   				],
-  				'saude' : [
+  				'Saúde' : [
             {'name':'Eduardo','value':0.1},
             {'name':'Marina','value':0},
             {'name':'Levy Fidélix','value':0.21},
@@ -1769,7 +1769,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
   		},
 
   		comparativo : {
-  				'cultura' : [
+  				'Cultura e Turismo' : [
             {'name':'Eduardo','value':3.9},
             {'name':'Marina','value':0.02},
             {'name':'Levy Fidélix','value':3.9},
@@ -1781,7 +1781,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.67},
             {'name':'Zé Maria','value':3.9}
   				],
-  				'democracia' :	[
+  				'Democracia e Reforma Política' :	[
             {'name':'Eduardo','value':-1.27},
             {'name':'Marina','value':-0.57},
             {'name':'Levy Fidélix','value':0.22},
@@ -1793,7 +1793,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.17},
             {'name':'Zé Maria','value':-0.94}
   				],
-  				'desenvolvimentoEconomico' : [
+  				'Desenvolvimento Econômico' : [
             {'name':'Eduardo','value':0.31},
             {'name':'Marina','value':0.24},
             {'name':'Levy Fidélix','value':0.53},
@@ -1805,7 +1805,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.15},
             {'name':'Zé Maria','value':4.23}
   				],
-  				'direitosHumanos' : [
+  				'Direitos Humanos e Inclusão Social' : [
             {'name':'Eduardo','value':-0.47},
             {'name':'Marina','value':0.38},
             {'name':'Levy Fidélix','value':3.94},
@@ -1817,7 +1817,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.48},
             {'name':'Zé Maria','value':0.07}
   				],
-  				'educacao' : [
+  				'Educação' : [
             {'name':'Eduardo','value':-0.99},
             {'name':'Marina','value':-0.57},
             {'name':'Levy Fidélix','value':0.15},
@@ -1829,7 +1829,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.47},
             {'name':'Zé Maria','value':-0.41}
   				],
-  				'esporte' : [
+  				'Esporte e Lazer' : [
             {'name':'Eduardo','value':3.86},
             {'name':'Marina','value':3.86},
             {'name':'Levy Fidélix','value':3.86},
@@ -1841,7 +1841,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.86},
             {'name':'Zé Maria','value':3.86}
   				],
-  				'gestaoPublica' : [
+  				'Gestão Pública' : [
             {'name':'Eduardo','value':-0.13},
             {'name':'Marina','value':0.44},
             {'name':'Levy Fidélix','value':4.57},
@@ -1853,7 +1853,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':2.31},
             {'name':'Zé Maria','value':1.28}
   				],
-  				'infraestrutura' : [
+  				'Infraestrutura' : [
             {'name':'Eduardo','value':-0.65},
             {'name':'Marina','value':-0.2},
             {'name':'Levy Fidélix','value':0.58},
@@ -1865,7 +1865,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.23},
             {'name':'Zé Maria','value':-0.41}
   				],
-  				'liberdadesCivis' : [
+  				'Liberdades Civis' : [
             {'name':'Eduardo','value':0.38},
             {'name':'Marina','value':5},
             {'name':'Levy Fidélix','value':5},
@@ -1877,7 +1877,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.2},
             {'name':'Zé Maria','value':0.97}
   				],
-  				'meioAmbiente' : [
+  				'Meio Ambiente' : [
             {'name':'Eduardo','value':-0.63},
             {'name':'Marina','value':-0.5},
             {'name':'Levy Fidélix','value':3.9},
@@ -1889,7 +1889,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.9},
             {'name':'Zé Maria','value':3.9}
   				],
-  				'outros' : [
+  				'Outros' : [
             {'name':'Eduardo','value':-1.29},
             {'name':'Marina','value':-0.8},
             {'name':'Levy Fidélix','value':-1.3},
@@ -1901,7 +1901,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.2},
             {'name':'Zé Maria','value':-0.52}
   				],
-  				'politicaEconomica' : [
+  				'Política Econômica' : [
             {'name':'Eduardo','value':0.01},
             {'name':'Marina','value':0.85},
             {'name':'Levy Fidélix','value':1.02},
@@ -1913,7 +1913,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.79},
             {'name':'Zé Maria','value':0.83}
   				],
-  				'politicaExterna' : [
+  				'Política Externa e Defesa Social' : [
             {'name':'Eduardo','value':0.11},
             {'name':'Marina','value':0.36},
             {'name':'Levy Fidélix','value':-0.77},
@@ -1925,7 +1925,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':4.23},
             {'name':'Zé Maria','value':4.23}
   				],
-  				'segurancaPublica' : [
+  				'Segurança Pública' : [
             {'name':'Eduardo','value':-0.49},
             {'name':'Marina','value':-0.15},
             {'name':'Levy Fidélix','value':-0.47},
@@ -1937,7 +1937,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.86},
             {'name':'Zé Maria','value':-0.33}
   				],
-  				'politicasSociais' : [
+  				'Políticas Sociais' : [
             {'name':'Eduardo','value':3.72},
             {'name':'Marina','value':-0.25},
             {'name':'Levy Fidélix','value':0.22},
@@ -1949,7 +1949,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.56},
             {'name':'Zé Maria','value':-0.5}
   				],
-  				'saude' : [
+  				'Saúde' : [
             {'name':'Eduardo','value':-0.57},
             {'name':'Marina','value':-0.04},
             {'name':'Levy Fidélix','value':0.06},
@@ -1966,7 +1966,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
 
   	luciana: {
   		testeCego : {
-  				'cultura' : [
+  				'Cultura e Turismo' : [
             {'name':'Eduardo','value':0},
             {'name':'Marina','value':-3.52},
             {'name':'Levy Fidélix','value':0},
@@ -1978,7 +1978,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-2.86},
             {'name':'Zé Maria','value':0}
   				],
-  				'democracia' :	[
+  				'Democracia e Reforma Política' :	[
             {'name':'Eduardo','value':-0.29},
             {'name':'Marina','value':-0.24},
             {'name':'Levy Fidélix','value':-0.23},
@@ -1990,7 +1990,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.04},
             {'name':'Zé Maria','value':-0.62}
   				],
-  				'desenvolvimentoEconomico' : [
+  				'Desenvolvimento Econômico' : [
             {'name':'Eduardo','value':-0.24},
             {'name':'Marina','value':-0.49},
             {'name':'Levy Fidélix','value':-0.09},
@@ -2002,7 +2002,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.66},
             {'name':'Zé Maria','value':3.18}
   				],
-  				'direitosHumanos' : [
+  				'Direitos Humanos e Inclusão Social' : [
             {'name':'Eduardo','value':0.21},
             {'name':'Marina','value':0.37},
             {'name':'Levy Fidélix','value':3.73},
@@ -2014,7 +2014,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.61},
             {'name':'Zé Maria','value':0.49}
   				],
-  				'educacao' : [
+  				'Educação' : [
             {'name':'Eduardo','value':-0.01},
             {'name':'Marina','value':0.09},
             {'name':'Levy Fidélix','value':0.1},
@@ -2026,7 +2026,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.83},
             {'name':'Zé Maria','value':-0.06}
   				],
-  				'esporte' : [
+  				'Esporte e Lazer' : [
             {'name':'Eduardo','value':0},
             {'name':'Marina','value':0},
             {'name':'Levy Fidélix','value':0},
@@ -2038,7 +2038,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0},
             {'name':'Zé Maria','value':0}
   				],
-  				'gestaoPublica' : [
+  				'Gestão Pública' : [
             {'name':'Eduardo','value':-0.34},
             {'name':'Marina','value':-0.06},
             {'name':'Levy Fidélix','value':1.45},
@@ -2050,7 +2050,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.67},
             {'name':'Zé Maria','value':0.96}
   				],
-  				'infraestrutura' : [
+  				'Infraestrutura' : [
             {'name':'Eduardo','value':-0.66},
             {'name':'Marina','value':-0.97},
             {'name':'Levy Fidélix','value':-0.55},
@@ -2062,7 +2062,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-1.25},
             {'name':'Zé Maria','value':-1.06}
   				],
-  				'liberdadesCivis' : [
+  				'Liberdades Civis' : [
             {'name':'Eduardo','value':-0.04},
             {'name':'Marina','value':3.25},
             {'name':'Levy Fidélix','value':3.25},
@@ -2074,7 +2074,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.12},
             {'name':'Zé Maria','value':-0.25}
   				],
-  				'meioAmbiente' : [
+  				'Meio Ambiente' : [
             {'name':'Eduardo','value':-3.15},
             {'name':'Marina','value':-3.79},
             {'name':'Levy Fidélix','value':0},
@@ -2086,7 +2086,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0},
             {'name':'Zé Maria','value':0}
   				],
-  				'outros' : [
+  				'Outros' : [
             {'name':'Eduardo','value':-3.62},
             {'name':'Marina','value':-3.54},
             {'name':'Levy Fidélix','value':-3.06},
@@ -2098,7 +2098,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0},
             {'name':'Zé Maria','value':-2.49}
   				],
-  				'politicaEconomica' : [
+  				'Política Econômica' : [
             {'name':'Eduardo','value':-0.14},
             {'name':'Marina','value':-0.57},
             {'name':'Levy Fidélix','value':-0.29},
@@ -2110,7 +2110,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.41},
             {'name':'Zé Maria','value':0.25}
   				],
-  				'politicaExterna' : [
+  				'Política Externa e Defesa Social' : [
             {'name':'Eduardo','value':-3.03},
             {'name':'Marina','value':-3.28},
             {'name':'Levy Fidélix','value':-3.19},
@@ -2122,7 +2122,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0},
             {'name':'Zé Maria','value':0}
   				],
-  				'segurancaPublica' : [
+  				'Segurança Pública' : [
             {'name':'Eduardo','value':0.24},
             {'name':'Marina','value':-0.16},
             {'name':'Levy Fidélix','value':0.22},
@@ -2134,7 +2134,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.66},
             {'name':'Zé Maria','value':0.57}
   				],
-  				'politicasSociais' : [
+  				'Políticas Sociais' : [
             {'name':'Eduardo','value':3.19},
             {'name':'Marina','value':-0.48},
             {'name':'Levy Fidélix','value':0.09},
@@ -2146,7 +2146,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.45},
             {'name':'Zé Maria','value':-0.56}
   				],
-  				'saude' : [
+  				'Saúde' : [
             {'name':'Eduardo','value':0.56},
             {'name':'Marina','value':0.46},
             {'name':'Levy Fidélix','value':0.66},
@@ -2161,7 +2161,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
   		},
 
   		comparativo : {
-  				'cultura' : [
+  				'Cultura e Turismo' : [
             {'name':'Eduardo','value':0},
             {'name':'Marina','value':-3.88},
             {'name':'Levy Fidélix','value':0},
@@ -2173,7 +2173,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-3.23},
             {'name':'Zé Maria','value':0}
   				],
-  				'democracia' :	[
+  				'Democracia e Reforma Política' :	[
             {'name':'Eduardo','value':-0.07},
             {'name':'Marina','value':0.63},
             {'name':'Levy Fidélix','value':1.42},
@@ -2185,7 +2185,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.03},
             {'name':'Zé Maria','value':0.26}
   				],
-  				'desenvolvimentoEconomico' : [
+  				'Desenvolvimento Econômico' : [
             {'name':'Eduardo','value':0.38},
             {'name':'Marina','value':0.31},
             {'name':'Levy Fidélix','value':0.6},
@@ -2197,7 +2197,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.22},
             {'name':'Zé Maria','value':4.3}
   				],
-  				'direitosHumanos' : [
+  				'Direitos Humanos e Inclusão Social' : [
             {'name':'Eduardo','value':0.4},
             {'name':'Marina','value':1.25},
             {'name':'Levy Fidélix','value':4.81},
@@ -2209,7 +2209,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.35},
             {'name':'Zé Maria','value':0.94}
   				],
-  				'educacao' : [
+  				'Educação' : [
             {'name':'Eduardo','value':-0.02},
             {'name':'Marina','value':0.39},
             {'name':'Levy Fidélix','value':1.11},
@@ -2221,7 +2221,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.43},
             {'name':'Zé Maria','value':0.55}
   				],
-  				'esporte' : [
+  				'Esporte e Lazer' : [
             {'name':'Eduardo','value':0},
             {'name':'Marina','value':0},
             {'name':'Levy Fidélix','value':0},
@@ -2233,7 +2233,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0},
             {'name':'Zé Maria','value':0}
   				],
-  				'gestaoPublica' : [
+  				'Gestão Pública' : [
             {'name':'Eduardo','value':-0.25},
             {'name':'Marina','value':0.32},
             {'name':'Levy Fidélix','value':4.45},
@@ -2245,7 +2245,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':2.2},
             {'name':'Zé Maria','value':1.17}
   				],
-  				'infraestrutura' : [
+  				'Infraestrutura' : [
             {'name':'Eduardo','value':-0.21},
             {'name':'Marina','value':0.24},
             {'name':'Levy Fidélix','value':1.02},
@@ -2257,7 +2257,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.21},
             {'name':'Zé Maria','value':0.04}
   				],
-  				'liberdadesCivis' : [
+  				'Liberdades Civis' : [
             {'name':'Eduardo','value':0.03},
             {'name':'Marina','value':4.65},
             {'name':'Levy Fidélix','value':4.65},
@@ -2269,7 +2269,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.86},
             {'name':'Zé Maria','value':0.62}
   				],
-  				'meioAmbiente' : [
+  				'Meio Ambiente' : [
             {'name':'Eduardo','value':-4.53},
             {'name':'Marina','value':-4.41},
             {'name':'Levy Fidélix','value':0},
@@ -2281,7 +2281,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0},
             {'name':'Zé Maria','value':0}
   				],
-  				'outros' : [
+  				'Outros' : [
             {'name':'Eduardo','value':-4.49},
             {'name':'Marina','value':-4},
             {'name':'Levy Fidélix','value':-4.5},
@@ -2293,7 +2293,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0},
             {'name':'Zé Maria','value':-3.72}
   				],
-  				'politicaEconomica' : [
+  				'Política Econômica' : [
             {'name':'Eduardo','value':-0.01},
             {'name':'Marina','value':0.83},
             {'name':'Levy Fidélix','value':1},
@@ -2305,7 +2305,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.77},
             {'name':'Zé Maria','value':0.81}
   				],
-  				'politicaExterna' : [
+  				'Política Externa e Defesa Social' : [
             {'name':'Eduardo','value':-4.11},
             {'name':'Marina','value':-3.87},
             {'name':'Levy Fidélix','value':-5},
@@ -2317,7 +2317,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0},
             {'name':'Zé Maria','value':0}
   				],
-  				'segurancaPublica' : [
+  				'Segurança Pública' : [
             {'name':'Eduardo','value':0.24},
             {'name':'Marina','value':0.58},
             {'name':'Levy Fidélix','value':0.25},
@@ -2329,7 +2329,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.59},
             {'name':'Zé Maria','value':0.4}
   				],
-  				'politicasSociais' : [
+  				'Políticas Sociais' : [
             {'name':'Eduardo','value':4.53},
             {'name':'Marina','value':0.55},
             {'name':'Levy Fidélix','value':1.03},
@@ -2341,7 +2341,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':4.36},
             {'name':'Zé Maria','value':0.31}
   				],
-  				'saude' : [
+  				'Saúde' : [
             {'name':'Eduardo','value':0},
             {'name':'Marina','value':0.53},
             {'name':'Levy Fidélix','value':0.63},
@@ -2358,7 +2358,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
 
   	eymael: {
   		testeCego : {
-  				'cultura' : [
+  				'Cultura e Turismo' : [
             {'name':'Eduardo','value':3.64},
             {'name':'Marina','value':0.12},
             {'name':'Levy Fidélix','value':3.64},
@@ -2370,7 +2370,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.78},
             {'name':'Zé Maria','value':3.64}
   				],
-  				'democracia' :	[
+  				'Democracia e Reforma Política' :	[
             {'name':'Eduardo','value':-0.21},
             {'name':'Marina','value':-0.15},
             {'name':'Levy Fidélix','value':-0.15},
@@ -2382,7 +2382,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.12},
             {'name':'Zé Maria','value':-0.53}
   				],
-  				'desenvolvimentoEconomico' : [
+  				'Desenvolvimento Econômico' : [
             {'name':'Eduardo','value':0.28},
             {'name':'Marina','value':0.03},
             {'name':'Levy Fidélix','value':0.44},
@@ -2394,7 +2394,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.19},
             {'name':'Zé Maria','value':3.71}
   				],
-  				'direitosHumanos' : [
+  				'Direitos Humanos e Inclusão Social' : [
             {'name':'Eduardo','value':0.53},
             {'name':'Marina','value':0.68},
             {'name':'Levy Fidélix','value':4.05},
@@ -2406,7 +2406,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.92},
             {'name':'Zé Maria','value':0.81}
   				],
-  				'educacao' : [
+  				'Educação' : [
             {'name':'Eduardo','value':-0.02},
             {'name':'Marina','value':0.08},
             {'name':'Levy Fidélix','value':0.09},
@@ -2418,7 +2418,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.81},
             {'name':'Zé Maria','value':-0.07}
   				],
-  				'esporte' : [
+  				'Esporte e Lazer' : [
             {'name':'Eduardo','value':3.64},
             {'name':'Marina','value':3.64},
             {'name':'Levy Fidélix','value':3.64},
@@ -2430,7 +2430,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.64},
             {'name':'Zé Maria','value':3.64}
   				],
-  				'gestaoPublica' : [
+  				'Gestão Pública' : [
             {'name':'Eduardo','value':0.05},
             {'name':'Marina','value':0.33},
             {'name':'Levy Fidélix','value':1.83},
@@ -2442,7 +2442,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.06},
             {'name':'Zé Maria','value':1.34}
   				],
-  				'infraestrutura' : [
+  				'Infraestrutura' : [
             {'name':'Eduardo','value':0.22},
             {'name':'Marina','value':-0.08},
             {'name':'Levy Fidélix','value':0.34},
@@ -2454,7 +2454,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.36},
             {'name':'Zé Maria','value':-0.18}
   				],
-  				'liberdadesCivis' : [
+  				'Liberdades Civis' : [
             {'name':'Eduardo','value':-3.3},
             {'name':'Marina','value':0},
             {'name':'Levy Fidélix','value':0},
@@ -2466,7 +2466,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-3.37},
             {'name':'Zé Maria','value':-3.51}
   				],
-  				'meioAmbiente' : [
+  				'Meio Ambiente' : [
             {'name':'Eduardo','value':0.71},
             {'name':'Marina','value':0.08},
             {'name':'Levy Fidélix','value':3.87},
@@ -2478,7 +2478,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.87},
             {'name':'Zé Maria','value':3.87}
   				],
-  				'outros' : [
+  				'Outros' : [
             {'name':'Eduardo','value':-0.36},
             {'name':'Marina','value':-0.28},
             {'name':'Levy Fidélix','value':0.21},
@@ -2490,7 +2490,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.27},
             {'name':'Zé Maria','value':0.78}
   				],
-  				'politicaEconomica' : [
+  				'Política Econômica' : [
             {'name':'Eduardo','value':0.47},
             {'name':'Marina','value':0.04},
             {'name':'Levy Fidélix','value':0.32},
@@ -2502,7 +2502,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.02},
             {'name':'Zé Maria','value':0.86}
   				],
-  				'politicaExterna' : [
+  				'Política Externa e Defesa Social' : [
             {'name':'Eduardo','value':0.48},
             {'name':'Marina','value':0.23},
             {'name':'Levy Fidélix','value':0.32},
@@ -2514,7 +2514,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.51},
             {'name':'Zé Maria','value':3.51}
   				],
-  				'segurancaPublica' : [
+  				'Segurança Pública' : [
             {'name':'Eduardo','value':0.35},
             {'name':'Marina','value':-0.05},
             {'name':'Levy Fidélix','value':0.33},
@@ -2526,7 +2526,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.76},
             {'name':'Zé Maria','value':0.68}
   				],
-  				'politicasSociais' : [
+  				'Políticas Sociais' : [
             {'name':'Eduardo','value':3.55},
             {'name':'Marina','value':-0.12},
             {'name':'Levy Fidélix','value':0.46},
@@ -2538,7 +2538,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.81},
             {'name':'Zé Maria','value':-0.2}
   				],
-  				'saude' : [
+  				'Saúde' : [
             {'name':'Eduardo','value':0.45},
             {'name':'Marina','value':0.34},
             {'name':'Levy Fidélix','value':0.55},
@@ -2553,7 +2553,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
   		},
 
   		comparativo : {
-  				'cultura' : [
+  				'Cultura e Turismo' : [
             {'name':'Eduardo','value':3.61},
             {'name':'Marina','value':-0.27},
             {'name':'Levy Fidélix','value':3.61},
@@ -2565,7 +2565,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.38},
             {'name':'Zé Maria','value':3.61}
   				],
-  				'democracia' :	[
+  				'Democracia e Reforma Política' :	[
             {'name':'Eduardo','value':-1.09},
             {'name':'Marina','value':-0.39},
             {'name':'Levy Fidélix','value':0.4},
@@ -2577,7 +2577,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.01},
             {'name':'Zé Maria','value':-0.76}
   				],
-  				'desenvolvimentoEconomico' : [
+  				'Desenvolvimento Econômico' : [
             {'name':'Eduardo','value':0.2},
             {'name':'Marina','value':0.14},
             {'name':'Levy Fidélix','value':0.42},
@@ -2589,7 +2589,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.05},
             {'name':'Zé Maria','value':4.13}
   				],
-  				'direitosHumanos' : [
+  				'Direitos Humanos e Inclusão Social' : [
             {'name':'Eduardo','value':-0.18},
             {'name':'Marina','value':0.67},
             {'name':'Levy Fidélix','value':4.23},
@@ -2601,7 +2601,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.77},
             {'name':'Zé Maria','value':0.36}
   				],
-  				'educacao' : [
+  				'Educação' : [
             {'name':'Eduardo','value':-0.56},
             {'name':'Marina','value':-0.14},
             {'name':'Levy Fidélix','value':0.58},
@@ -2613,7 +2613,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.9},
             {'name':'Zé Maria','value':0.02}
   				],
-  				'esporte' : [
+  				'Esporte e Lazer' : [
             {'name':'Eduardo','value':3.5},
             {'name':'Marina','value':3.5},
             {'name':'Levy Fidélix','value':3.5},
@@ -2625,7 +2625,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.5},
             {'name':'Zé Maria','value':3.5}
   				],
-  				'gestaoPublica' : [
+  				'Gestão Pública' : [
             {'name':'Eduardo','value':-0.67},
             {'name':'Marina','value':-0.1},
             {'name':'Levy Fidélix','value':4.03},
@@ -2637,7 +2637,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.78},
             {'name':'Zé Maria','value':0.74}
   				],
-  				'infraestrutura' : [
+  				'Infraestrutura' : [
             {'name':'Eduardo','value':-0.56},
             {'name':'Marina','value':-0.11},
             {'name':'Levy Fidélix','value':0.67},
@@ -2649,7 +2649,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.14},
             {'name':'Zé Maria','value':-0.32}
   				],
-  				'liberdadesCivis' : [
+  				'Liberdades Civis' : [
             {'name':'Eduardo','value':-4.62},
             {'name':'Marina','value':0},
             {'name':'Levy Fidélix','value':0},
@@ -2661,7 +2661,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-3.8},
             {'name':'Zé Maria','value':-4.03}
   				],
-  				'meioAmbiente' : [
+  				'Meio Ambiente' : [
             {'name':'Eduardo','value':-1.28},
             {'name':'Marina','value':-1.16},
             {'name':'Levy Fidélix','value':3.25},
@@ -2673,7 +2673,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.25},
             {'name':'Zé Maria','value':3.25}
   				],
-  				'outros' : [
+  				'Outros' : [
             {'name':'Eduardo','value':-1.74},
             {'name':'Marina','value':-1.25},
             {'name':'Levy Fidélix','value':-1.75},
@@ -2685,7 +2685,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':2.75},
             {'name':'Zé Maria','value':-0.97}
   				],
-  				'politicaEconomica' : [
+  				'Política Econômica' : [
             {'name':'Eduardo','value':-0.64},
             {'name':'Marina','value':0.2},
             {'name':'Levy Fidélix','value':0.37},
@@ -2697,7 +2697,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.14},
             {'name':'Zé Maria','value':0.18}
   				],
-  				'politicaExterna' : [
+  				'Política Externa e Defesa Social' : [
             {'name':'Eduardo','value':-2.61},
             {'name':'Marina','value':-2.37},
             {'name':'Levy Fidélix','value':-3.5},
@@ -2709,7 +2709,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.5},
             {'name':'Zé Maria','value':1.5}
   				],
-  				'segurancaPublica' : [
+  				'Segurança Pública' : [
             {'name':'Eduardo','value':-0.28},
             {'name':'Marina','value':0.06},
             {'name':'Levy Fidélix','value':-0.26},
@@ -2721,7 +2721,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.07},
             {'name':'Zé Maria','value':-0.12}
   				],
-  				'politicasSociais' : [
+  				'Políticas Sociais' : [
             {'name':'Eduardo','value':0},
             {'name':'Marina','value':-3.97},
             {'name':'Levy Fidélix','value':-3.5},
@@ -2733,7 +2733,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.17},
             {'name':'Zé Maria','value':-4.22}
   				],
-  				'saude' : [
+  				'Saúde' : [
             {'name':'Eduardo','value':-0.52},
             {'name':'Marina','value':0.01},
             {'name':'Levy Fidélix','value':0.11},
@@ -2750,7 +2750,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
 
   	everaldo: {
   		testeCego : {
-  				'cultura' : [
+  				'Cultura e Turismo' : [
             {'name':'Eduardo','value':3.44},
             {'name':'Marina','value':-0.08},
             {'name':'Levy Fidélix','value':3.44},
@@ -2762,7 +2762,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.58},
             {'name':'Zé Maria','value':3.44}
   				],
-  				'democracia' :	[
+  				'Democracia e Reforma Política' :	[
             {'name':'Eduardo','value':0.18},
             {'name':'Marina','value':0.23},
             {'name':'Levy Fidélix','value':0.24},
@@ -2774,7 +2774,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.51},
             {'name':'Zé Maria','value':-0.15}
   				],
-  				'desenvolvimentoEconomico' : [
+  				'Desenvolvimento Econômico' : [
             {'name':'Eduardo','value':-0.05},
             {'name':'Marina','value':-0.3},
             {'name':'Levy Fidélix','value':0.1},
@@ -2786,7 +2786,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.85},
             {'name':'Zé Maria','value':3.37}
   				],
-  				'direitosHumanos' : [
+  				'Direitos Humanos e Inclusão Social' : [
             {'name':'Eduardo','value':0.24},
             {'name':'Marina','value':0.4},
             {'name':'Levy Fidélix','value':3.76},
@@ -2798,7 +2798,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.64},
             {'name':'Zé Maria','value':0.52}
   				],
-  				'educacao' : [
+  				'Educação' : [
             {'name':'Eduardo','value':-0.29},
             {'name':'Marina','value':-0.19},
             {'name':'Levy Fidélix','value':-0.18},
@@ -2810,7 +2810,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.54},
             {'name':'Zé Maria','value':-0.34}
   				],
-  				'esporte' : [
+  				'Esporte e Lazer' : [
             {'name':'Eduardo','value':2.73},
             {'name':'Marina','value':2.73},
             {'name':'Levy Fidélix','value':2.73},
@@ -2822,7 +2822,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':2.73},
             {'name':'Zé Maria','value':2.73}
   				],
-  				'gestaoPublica' : [
+  				'Gestão Pública' : [
             {'name':'Eduardo','value':-0.5},
             {'name':'Marina','value':-0.22},
             {'name':'Levy Fidélix','value':1.28},
@@ -2834,7 +2834,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.51},
             {'name':'Zé Maria','value':0.79}
   				],
-  				'infraestrutura' : [
+  				'Infraestrutura' : [
             {'name':'Eduardo','value':0.06},
             {'name':'Marina','value':-0.24},
             {'name':'Levy Fidélix','value':0.18},
@@ -2846,7 +2846,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.52},
             {'name':'Zé Maria','value':-0.34}
   				],
-  				'liberdadesCivis' : [
+  				'Liberdades Civis' : [
             {'name':'Eduardo','value':-0.03},
             {'name':'Marina','value':3.26},
             {'name':'Levy Fidélix','value':3.26},
@@ -2858,7 +2858,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.11},
             {'name':'Zé Maria','value':-0.24}
   				],
-  				'meioAmbiente' : [
+  				'Meio Ambiente' : [
             {'name':'Eduardo','value':0.56},
             {'name':'Marina','value':-0.07},
             {'name':'Levy Fidélix','value':3.72},
@@ -2870,7 +2870,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.72},
             {'name':'Zé Maria','value':3.72}
   				],
-  				'outros' : [
+  				'Outros' : [
             {'name':'Eduardo','value':-0.86},
             {'name':'Marina','value':-0.78},
             {'name':'Levy Fidélix','value':-0.29},
@@ -2882,7 +2882,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':2.76},
             {'name':'Zé Maria','value':0.28}
   				],
-  				'politicaEconomica' : [
+  				'Política Econômica' : [
             {'name':'Eduardo','value':0.11},
             {'name':'Marina','value':-0.32},
             {'name':'Levy Fidélix','value':-0.04},
@@ -2894,7 +2894,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.66},
             {'name':'Zé Maria','value':0.5}
   				],
-  				'politicaExterna' : [
+  				'Política Externa e Defesa Social' : [
             {'name':'Eduardo','value':0.14},
             {'name':'Marina','value':-0.11},
             {'name':'Levy Fidélix','value':-0.02},
@@ -2906,7 +2906,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.17},
             {'name':'Zé Maria','value':3.17}
   				],
-  				'segurancaPublica' : [
+  				'Segurança Pública' : [
             {'name':'Eduardo','value':0.18},
             {'name':'Marina','value':-0.22},
             {'name':'Levy Fidélix','value':0.16},
@@ -2918,7 +2918,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.6},
             {'name':'Zé Maria','value':0.51}
   				],
-  				'politicasSociais' : [
+  				'Políticas Sociais' : [
             {'name':'Eduardo','value':3.55},
             {'name':'Marina','value':-0.12},
             {'name':'Levy Fidélix','value':0.45},
@@ -2930,7 +2930,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.81},
             {'name':'Zé Maria','value':-0.2}
   				],
-  				'saude' : [
+  				'Saúde' : [
             {'name':'Eduardo','value':-0.11},
             {'name':'Marina','value':-0.22},
             {'name':'Levy Fidélix','value':-0.01},
@@ -2945,7 +2945,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
   		},
 
   		comparativo : {
-  				'cultura' : [
+  				'Cultura e Turismo' : [
             {'name':'Eduardo','value':4.1},
             {'name':'Marina','value':0.21},
             {'name':'Levy Fidélix','value':4.1},
@@ -2957,7 +2957,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.87},
             {'name':'Zé Maria','value':4.1}
   				],
-  				'democracia' :	[
+  				'Democracia e Reforma Política' :	[
             {'name':'Eduardo','value':-0.06},
             {'name':'Marina','value':0.64},
             {'name':'Levy Fidélix','value':1.43},
@@ -2969,7 +2969,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.04},
             {'name':'Zé Maria','value':0.27}
   				],
-  				'desenvolvimentoEconomico' : [
+  				'Desenvolvimento Econômico' : [
             {'name':'Eduardo','value':0.69},
             {'name':'Marina','value':0.62},
             {'name':'Levy Fidélix','value':0.91},
@@ -2981,7 +2981,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.53},
             {'name':'Zé Maria','value':4.61}
   				],
-  				'direitosHumanos' : [
+  				'Direitos Humanos e Inclusão Social' : [
             {'name':'Eduardo','value':-1.02},
             {'name':'Marina','value':-0.17},
             {'name':'Levy Fidélix','value':3.4},
@@ -2993,7 +2993,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.06},
             {'name':'Zé Maria','value':-0.47}
   				],
-  				'educacao' : [
+  				'Educação' : [
             {'name':'Eduardo','value':-0.66},
             {'name':'Marina','value':-0.24},
             {'name':'Levy Fidélix','value':0.48},
@@ -3005,7 +3005,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.8},
             {'name':'Zé Maria','value':-0.08}
   				],
-  				'esporte' : [
+  				'Esporte e Lazer' : [
             {'name':'Eduardo','value':3},
             {'name':'Marina','value':3},
             {'name':'Levy Fidélix','value':3},
@@ -3017,7 +3017,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3},
             {'name':'Zé Maria','value':3}
   				],
-  				'gestaoPublica' : [
+  				'Gestão Pública' : [
             {'name':'Eduardo','value':-1.12},
             {'name':'Marina','value':-0.56},
             {'name':'Levy Fidélix','value':3.57},
@@ -3029,7 +3029,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.32},
             {'name':'Zé Maria','value':0.29}
   				],
-  				'infraestrutura' : [
+  				'Infraestrutura' : [
             {'name':'Eduardo','value':-0.45},
             {'name':'Marina','value':0},
             {'name':'Levy Fidélix','value':0.78},
@@ -3041,7 +3041,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.03},
             {'name':'Zé Maria','value':-0.2}
   				],
-  				'liberdadesCivis' : [
+  				'Liberdades Civis' : [
             {'name':'Eduardo','value':-0.4},
             {'name':'Marina','value':4.22},
             {'name':'Levy Fidélix','value':4.22},
@@ -3053,7 +3053,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.42},
             {'name':'Zé Maria','value':0.19}
   				],
-  				'meioAmbiente' : [
+  				'Meio Ambiente' : [
             {'name':'Eduardo','value':-0.67},
             {'name':'Marina','value':-0.54},
             {'name':'Levy Fidélix','value':3.86},
@@ -3065,7 +3065,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.86},
             {'name':'Zé Maria','value':3.86}
   				],
-  				'outros' : [
+  				'Outros' : [
             {'name':'Eduardo','value':-1.25},
             {'name':'Marina','value':-0.76},
             {'name':'Levy Fidélix','value':-1.26},
@@ -3077,7 +3077,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.24},
             {'name':'Zé Maria','value':-0.48}
   				],
-  				'politicaEconomica' : [
+  				'Política Econômica' : [
             {'name':'Eduardo','value':0.1},
             {'name':'Marina','value':0.95},
             {'name':'Levy Fidélix','value':1.11},
@@ -3089,7 +3089,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.88},
             {'name':'Zé Maria','value':0.93}
   				],
-  				'politicaExterna' : [
+  				'Política Externa e Defesa Social' : [
             {'name':'Eduardo','value':-0.57},
             {'name':'Marina','value':-0.32},
             {'name':'Levy Fidélix','value':-1.46},
@@ -3101,7 +3101,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.54},
             {'name':'Zé Maria','value':3.54}
   				],
-  				'segurancaPublica' : [
+  				'Segurança Pública' : [
             {'name':'Eduardo','value':0.01},
             {'name':'Marina','value':0.35},
             {'name':'Levy Fidélix','value':0.03},
@@ -3113,7 +3113,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.36},
             {'name':'Zé Maria','value':0.17}
   				],
-  				'politicasSociais' : [
+  				'Políticas Sociais' : [
             {'name':'Eduardo','value':4.06},
             {'name':'Marina','value':0.08},
             {'name':'Levy Fidélix','value':0.56},
@@ -3125,7 +3125,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.89},
             {'name':'Zé Maria','value':-0.17}
   				],
-  				'saude' : [
+  				'Saúde' : [
             {'name':'Eduardo','value':0.23},
             {'name':'Marina','value':0.76},
             {'name':'Levy Fidélix','value':0.86},
@@ -3142,7 +3142,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
 
   	mauro: {
   		testeCego : {
-  				'cultura' : [
+  				'Cultura e Turismo' : [
             {'name':'Eduardo','value':3.62},
             {'name':'Marina','value':0.1},
             {'name':'Levy Fidélix','value':3.62},
@@ -3154,7 +3154,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.77},
             {'name':'Zé Maria','value':3.62}
   				],
-  				'democracia' :	[
+  				'Democracia e Reforma Política' :	[
             {'name':'Eduardo','value':-0.7},
             {'name':'Marina','value':-0.65},
             {'name':'Levy Fidélix','value':-0.64},
@@ -3166,7 +3166,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.37},
             {'name':'Zé Maria','value':-1.03}
   				],
-  				'desenvolvimentoEconomico' : [
+  				'Desenvolvimento Econômico' : [
             {'name':'Eduardo','value':-0.51},
             {'name':'Marina','value':-0.75},
             {'name':'Levy Fidélix','value':-0.35},
@@ -3178,7 +3178,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.4},
             {'name':'Zé Maria','value':2.92}
   				],
-  				'direitosHumanos' : [
+  				'Direitos Humanos e Inclusão Social' : [
             {'name':'Eduardo','value':-0.17},
             {'name':'Marina','value':-0.01},
             {'name':'Levy Fidélix','value':3.35},
@@ -3190,7 +3190,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.23},
             {'name':'Zé Maria','value':0.12}
   				],
-  				'educacao' : [
+  				'Educação' : [
             {'name':'Eduardo','value':-0.28},
             {'name':'Marina','value':-0.18},
             {'name':'Levy Fidélix','value':-0.17},
@@ -3202,7 +3202,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.55},
             {'name':'Zé Maria','value':-0.33}
   				],
-  				'esporte' : [
+  				'Esporte e Lazer' : [
             {'name':'Eduardo','value':0},
             {'name':'Marina','value':0},
             {'name':'Levy Fidélix','value':0},
@@ -3214,7 +3214,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0},
             {'name':'Zé Maria','value':0}
   				],
-  				'gestaoPublica' : [
+  				'Gestão Pública' : [
             {'name':'Eduardo','value':-1.15},
             {'name':'Marina','value':-0.87},
             {'name':'Levy Fidélix','value':0.63},
@@ -3226,7 +3226,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.15},
             {'name':'Zé Maria','value':0.14}
   				],
-  				'infraestrutura' : [
+  				'Infraestrutura' : [
             {'name':'Eduardo','value':-0.51},
             {'name':'Marina','value':-0.81},
             {'name':'Levy Fidélix','value':-0.39},
@@ -3238,7 +3238,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-1.09},
             {'name':'Zé Maria','value':-0.91}
   				],
-  				'liberdadesCivis' : [
+  				'Liberdades Civis' : [
             {'name':'Eduardo','value':-3.3},
             {'name':'Marina','value':0},
             {'name':'Levy Fidélix','value':0},
@@ -3250,7 +3250,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-3.37},
             {'name':'Zé Maria','value':-3.51}
   				],
-  				'meioAmbiente' : [
+  				'Meio Ambiente' : [
             {'name':'Eduardo','value':-3.15},
             {'name':'Marina','value':-3.79},
             {'name':'Levy Fidélix','value':0},
@@ -3262,7 +3262,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0},
             {'name':'Zé Maria','value':0}
   				],
-  				'outros' : [
+  				'Outros' : [
             {'name':'Eduardo','value':-1.09},
             {'name':'Marina','value':-1.01},
             {'name':'Levy Fidélix','value':-0.52},
@@ -3274,7 +3274,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':2.53},
             {'name':'Zé Maria','value':0.05}
   				],
-  				'politicaEconomica' : [
+  				'Política Econômica' : [
             {'name':'Eduardo','value':-0.2},
             {'name':'Marina','value':-0.63},
             {'name':'Levy Fidélix','value':-0.35},
@@ -3286,7 +3286,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.35},
             {'name':'Zé Maria','value':0.19}
   				],
-  				'politicaExterna' : [
+  				'Política Externa e Defesa Social' : [
             {'name':'Eduardo','value':-0.42},
             {'name':'Marina','value':-0.67},
             {'name':'Levy Fidélix','value':-0.57},
@@ -3298,7 +3298,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':2.62},
             {'name':'Zé Maria','value':2.62}
   				],
-  				'segurancaPublica' : [
+  				'Segurança Pública' : [
             {'name':'Eduardo','value':-0.25},
             {'name':'Marina','value':-0.65},
             {'name':'Levy Fidélix','value':-0.27},
@@ -3310,7 +3310,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.16},
             {'name':'Zé Maria','value':0.08}
   				],
-  				'politicasSociais' : [
+  				'Políticas Sociais' : [
             {'name':'Eduardo','value':3.06},
             {'name':'Marina','value':-0.62},
             {'name':'Levy Fidélix','value':-0.04},
@@ -3322,7 +3322,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.31},
             {'name':'Zé Maria','value':-0.69}
   				],
-  				'saude' : [
+  				'Saúde' : [
             {'name':'Eduardo','value':-0.6},
             {'name':'Marina','value':-0.7},
             {'name':'Levy Fidélix','value':-0.5},
@@ -3337,7 +3337,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
   		},
 
   		comparativo : {
-  				'cultura' : [
+  				'Cultura e Turismo' : [
             {'name':'Eduardo','value':2.08},
             {'name':'Marina','value':-1.8},
             {'name':'Levy Fidélix','value':2.08},
@@ -3349,7 +3349,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-1.15},
             {'name':'Zé Maria','value':2.08}
   				],
-  				'democracia' :	[
+  				'Democracia e Reforma Política' :	[
             {'name':'Eduardo','value':-1.64},
             {'name':'Marina','value':-0.94},
             {'name':'Levy Fidélix','value':-0.15},
@@ -3361,7 +3361,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.54},
             {'name':'Zé Maria','value':-1.31}
   				],
-  				'desenvolvimentoEconomico' : [
+  				'Desenvolvimento Econômico' : [
             {'name':'Eduardo','value':-3.92},
             {'name':'Marina','value':-3.99},
             {'name':'Levy Fidélix','value':-3.7},
@@ -3373,7 +3373,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-1.08},
             {'name':'Zé Maria','value':0}
   				],
-  				'direitosHumanos' : [
+  				'Direitos Humanos e Inclusão Social' : [
             {'name':'Eduardo','value':-0.19},
             {'name':'Marina','value':0.66},
             {'name':'Levy Fidélix','value':4.22},
@@ -3385,7 +3385,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.76},
             {'name':'Zé Maria','value':0.35}
   				],
-  				'educacao' : [
+  				'Educação' : [
             {'name':'Eduardo','value':-0.59},
             {'name':'Marina','value':-0.17},
             {'name':'Levy Fidélix','value':0.55},
@@ -3397,7 +3397,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.87},
             {'name':'Zé Maria','value':-0.01}
   				],
-  				'esporte' : [
+  				'Esporte e Lazer' : [
             {'name':'Eduardo','value':3.98},
             {'name':'Marina','value':3.98},
             {'name':'Levy Fidélix','value':3.98},
@@ -3409,7 +3409,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.98},
             {'name':'Zé Maria','value':3.98}
   				],
-  				'gestaoPublica' : [
+  				'Gestão Pública' : [
             {'name':'Eduardo','value':-0.45},
             {'name':'Marina','value':0.12},
             {'name':'Levy Fidélix','value':4.25},
@@ -3421,7 +3421,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':2},
             {'name':'Zé Maria','value':0.97}
   				],
-  				'infraestrutura' : [
+  				'Infraestrutura' : [
             {'name':'Eduardo','value':-0.15},
             {'name':'Marina','value':0.3},
             {'name':'Levy Fidélix','value':1.08},
@@ -3433,7 +3433,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.27},
             {'name':'Zé Maria','value':0.1}
   				],
-  				'liberdadesCivis' : [
+  				'Liberdades Civis' : [
             {'name':'Eduardo','value':-4.62},
             {'name':'Marina','value':0},
             {'name':'Levy Fidélix','value':0},
@@ -3445,7 +3445,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-3.8},
             {'name':'Zé Maria','value':-4.03}
   				],
-  				'meioAmbiente' : [
+  				'Meio Ambiente' : [
             {'name':'Eduardo','value':0.08},
             {'name':'Marina','value':0.2},
             {'name':'Levy Fidélix','value':4.61},
@@ -3457,7 +3457,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':4.61},
             {'name':'Zé Maria','value':4.61}
   				],
-  				'outros' : [
+  				'Outros' : [
             {'name':'Eduardo','value':0.19},
             {'name':'Marina','value':0.67},
             {'name':'Levy Fidélix','value':0.17},
@@ -3469,7 +3469,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':4.67},
             {'name':'Zé Maria','value':0.96}
   				],
-  				'politicaEconomica' : [
+  				'Política Econômica' : [
             {'name':'Eduardo','value':-4.51},
             {'name':'Marina','value':-3.67},
             {'name':'Levy Fidélix','value':-3.5},
@@ -3481,7 +3481,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-2.73},
             {'name':'Zé Maria','value':-3.68}
   				],
-  				'politicaExterna' : [
+  				'Política Externa e Defesa Social' : [
             {'name':'Eduardo','value':-4.11},
             {'name':'Marina','value':-3.87},
             {'name':'Levy Fidélix','value':-5},
@@ -3493,7 +3493,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0},
             {'name':'Zé Maria','value':0}
   				],
-  				'segurancaPublica' : [
+  				'Segurança Pública' : [
             {'name':'Eduardo','value':0.07},
             {'name':'Marina','value':0.41},
             {'name':'Levy Fidélix','value':0.08},
@@ -3505,7 +3505,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.42},
             {'name':'Zé Maria','value':0.22}
   				],
-  				'politicasSociais' : [
+  				'Políticas Sociais' : [
             {'name':'Eduardo','value':4.65},
             {'name':'Marina','value':0.67},
             {'name':'Levy Fidélix','value':1.15},
@@ -3517,7 +3517,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':4.48},
             {'name':'Zé Maria','value':0.43}
   				],
-  				'saude' : [
+  				'Saúde' : [
             {'name':'Eduardo','value':-0.08},
             {'name':'Marina','value':0.45},
             {'name':'Levy Fidélix','value':0.55},
@@ -3534,7 +3534,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
 
   	rui: {
   		testeCego : {
-  				'cultura' : [
+  				'Cultura e Turismo' : [
             {'name':'Eduardo','value':2.86},
             {'name':'Marina','value':-0.66},
             {'name':'Levy Fidélix','value':2.86},
@@ -3546,7 +3546,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':-0.72},
             {'name':'Zé Maria','value':2.86}
   				],
-  				'democracia' :	[
+  				'Democracia e Reforma Política' :	[
             {'name':'Eduardo','value':-0.33},
             {'name':'Marina','value':-0.28},
             {'name':'Levy Fidélix','value':-0.27},
@@ -3558,7 +3558,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':-0.82},
             {'name':'Zé Maria','value':-0.66}
   				],
-  				'desenvolvimentoEconomico' : [
+  				'Desenvolvimento Econômico' : [
             {'name':'Eduardo','value':-0.9},
             {'name':'Marina','value':-1.15},
             {'name':'Levy Fidélix','value':-0.75},
@@ -3570,7 +3570,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':-1.26},
             {'name':'Zé Maria','value':2.52}
   				],
-  				'direitosHumanos' : [
+  				'Direitos Humanos e Inclusão Social' : [
             {'name':'Eduardo','value':-0.4},
             {'name':'Marina','value':-0.24},
             {'name':'Levy Fidélix','value':3.12},
@@ -3582,7 +3582,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':-0.3},
             {'name':'Zé Maria','value':-0.11}
   				],
-  				'educacao' : [
+  				'Educação' : [
             {'name':'Eduardo','value':-0.83},
             {'name':'Marina','value':-0.74},
             {'name':'Levy Fidélix','value':-0.72},
@@ -3594,7 +3594,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':-0.84},
             {'name':'Zé Maria','value':-0.88}
   				],
-  				'esporte' : [
+  				'Esporte e Lazer' : [
             {'name':'Eduardo','value':0},
             {'name':'Marina','value':0},
             {'name':'Levy Fidélix','value':0},
@@ -3606,7 +3606,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':-3.11},
             {'name':'Zé Maria','value':0}
   				],
-  				'gestaoPublica' : [
+  				'Gestão Pública' : [
             {'name':'Eduardo','value':-1.01},
             {'name':'Marina','value':-0.73},
             {'name':'Levy Fidélix','value':0.77},
@@ -3618,7 +3618,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':-1.17},
             {'name':'Zé Maria','value':0.29}
   				],
-  				'infraestrutura' : [
+  				'Infraestrutura' : [
             {'name':'Eduardo','value':0.58},
             {'name':'Marina','value':0.28},
             {'name':'Levy Fidélix','value':0.7},
@@ -3630,7 +3630,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':0.24},
             {'name':'Zé Maria','value':0.18}
   				],
-  				'liberdadesCivis' : [
+  				'Liberdades Civis' : [
             {'name':'Eduardo','value':0.07},
             {'name':'Marina','value':3.37},
             {'name':'Levy Fidélix','value':3.37},
@@ -3642,7 +3642,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':3.37},
             {'name':'Zé Maria','value':-0.14}
   				],
-  				'meioAmbiente' : [
+  				'Meio Ambiente' : [
             {'name':'Eduardo','value':-3.15},
             {'name':'Marina','value':-3.79},
             {'name':'Levy Fidélix','value':0},
@@ -3654,7 +3654,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':-3.64},
             {'name':'Zé Maria','value':0}
   				],
-  				'outros' : [
+  				'Outros' : [
             {'name':'Eduardo','value':-3.62},
             {'name':'Marina','value':-3.54},
             {'name':'Levy Fidélix','value':-3.06},
@@ -3666,7 +3666,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':0},
             {'name':'Zé Maria','value':-2.49}
   				],
-  				'politicaEconomica' : [
+  				'Política Econômica' : [
             {'name':'Eduardo','value':-0.55},
             {'name':'Marina','value':-0.98},
             {'name':'Levy Fidélix','value':-0.7},
@@ -3678,7 +3678,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':-1.11},
             {'name':'Zé Maria','value':-0.16}
   				],
-  				'politicaExterna' : [
+  				'Política Externa e Defesa Social' : [
             {'name':'Eduardo','value':-3.03},
             {'name':'Marina','value':-3.28},
             {'name':'Levy Fidélix','value':-3.19},
@@ -3690,7 +3690,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':-3.43},
             {'name':'Zé Maria','value':0}
   				],
-  				'segurancaPublica' : [
+  				'Segurança Pública' : [
             {'name':'Eduardo','value':-0.41},
             {'name':'Marina','value':-0.82},
             {'name':'Levy Fidélix','value':-0.44},
@@ -3702,7 +3702,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':-0.95},
             {'name':'Zé Maria','value':-0.08}
   				],
-  				'politicasSociais' : [
+  				'Políticas Sociais' : [
             {'name':'Eduardo','value':2.74},
             {'name':'Marina','value':-0.93},
             {'name':'Levy Fidélix','value':-0.35},
@@ -3714,7 +3714,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':-0.65},
             {'name':'Zé Maria','value':-1.01}
   				],
-  				'saude' : [
+  				'Saúde' : [
             {'name':'Eduardo','value':-0.25},
             {'name':'Marina','value':-0.35},
             {'name':'Levy Fidélix','value':-0.15},
@@ -3729,7 +3729,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
   		},
 
   		comparativo : {
-  				'cultura' : [
+  				'Cultura e Turismo' : [
             {'name':'Eduardo','value':3.23},
             {'name':'Marina','value':-0.66},
             {'name':'Levy Fidélix','value':3.23},
@@ -3741,7 +3741,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':0},
             {'name':'Zé Maria','value':3.23}
   				],
-  				'democracia' :	[
+  				'Democracia e Reforma Política' :	[
             {'name':'Eduardo','value':-1.1},
             {'name':'Marina','value':-0.4},
             {'name':'Levy Fidélix','value':0.39},
@@ -3753,7 +3753,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':-0.38},
             {'name':'Zé Maria','value':-0.78}
   				],
-  				'desenvolvimentoEconomico' : [
+  				'Desenvolvimento Econômico' : [
             {'name':'Eduardo','value':-2.84},
             {'name':'Marina','value':-2.91},
             {'name':'Levy Fidélix','value':-2.62},
@@ -3765,7 +3765,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':-2.75},
             {'name':'Zé Maria','value':1.08}
   				],
-  				'direitosHumanos' : [
+  				'Direitos Humanos e Inclusão Social' : [
             {'name':'Eduardo','value':-0.96},
             {'name':'Marina','value':-0.1},
             {'name':'Levy Fidélix','value':3.46},
@@ -3777,7 +3777,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':-0.72},
             {'name':'Zé Maria','value':-0.41}
   				],
-  				'educacao' : [
+  				'Educação' : [
             {'name':'Eduardo','value':-1.46},
             {'name':'Marina','value':-1.04},
             {'name':'Levy Fidélix','value':-0.32},
@@ -3789,7 +3789,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':-1.23},
             {'name':'Zé Maria','value':-0.88}
   				],
-  				'esporte' : [
+  				'Esporte e Lazer' : [
             {'name':'Eduardo','value':0},
             {'name':'Marina','value':0},
             {'name':'Levy Fidélix','value':0},
@@ -3801,7 +3801,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':-3.37},
             {'name':'Zé Maria','value':0}
   				],
-  				'gestaoPublica' : [
+  				'Gestão Pública' : [
             {'name':'Eduardo','value':-2.44},
             {'name':'Marina','value':-1.88},
             {'name':'Levy Fidélix','value':2.25},
@@ -3813,7 +3813,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':-1.71},
             {'name':'Zé Maria','value':-1.03}
   				],
-  				'infraestrutura' : [
+  				'Infraestrutura' : [
             {'name':'Eduardo','value':-0.42},
             {'name':'Marina','value':0.03},
             {'name':'Levy Fidélix','value':0.81},
@@ -3825,7 +3825,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':0.15},
             {'name':'Zé Maria','value':-0.17}
   				],
-  				'liberdadesCivis' : [
+  				'Liberdades Civis' : [
             {'name':'Eduardo','value':-0.82},
             {'name':'Marina','value':3.8},
             {'name':'Levy Fidélix','value':3.8},
@@ -3837,7 +3837,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':3.8},
             {'name':'Zé Maria','value':-0.23}
   				],
-  				'meioAmbiente' : [
+  				'Meio Ambiente' : [
             {'name':'Eduardo','value':-4.53},
             {'name':'Marina','value':-4.41},
             {'name':'Levy Fidélix','value':0},
@@ -3849,7 +3849,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':-3.42},
             {'name':'Zé Maria','value':0}
   				],
-  				'outros' : [
+  				'Outros' : [
             {'name':'Eduardo','value':-4.49},
             {'name':'Marina','value':-4},
             {'name':'Levy Fidélix','value':-4.5},
@@ -3861,7 +3861,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':0},
             {'name':'Zé Maria','value':-3.72}
   				],
-  				'politicaEconomica' : [
+  				'Política Econômica' : [
             {'name':'Eduardo','value':-1.78},
             {'name':'Marina','value':-0.94},
             {'name':'Levy Fidélix','value':-0.77},
@@ -3873,7 +3873,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':-0.18},
             {'name':'Zé Maria','value':-0.95}
   				],
-  				'politicaExterna' : [
+  				'Política Externa e Defesa Social' : [
             {'name':'Eduardo','value':-4.11},
             {'name':'Marina','value':-3.87},
             {'name':'Levy Fidélix','value':-5},
@@ -3885,7 +3885,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':-3.84},
             {'name':'Zé Maria','value':0}
   				],
-  				'segurancaPublica' : [
+  				'Segurança Pública' : [
             {'name':'Eduardo','value':-1.35},
             {'name':'Marina','value':-1.01},
             {'name':'Levy Fidélix','value':-1.34},
@@ -3897,7 +3897,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':0.2},
             {'name':'Zé Maria','value':-1.19}
   				],
-  				'politicasSociais' : [
+  				'Políticas Sociais' : [
             {'name':'Eduardo','value':0.17},
             {'name':'Marina','value':-3.81},
             {'name':'Levy Fidélix','value':-3.33},
@@ -3909,7 +3909,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Dilma','value':-4.09},
             {'name':'Zé Maria','value':-4.06}
   				],
-  				'saude' : [
+  				'Saúde' : [
             {'name':'Eduardo','value':0.17},
             {'name':'Marina','value':-3.81},
             {'name':'Levy Fidélix','value':-3.33},
@@ -3926,7 +3926,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
 
   	zeMaria: {
   		testeCego : {
-  				'cultura' : [
+  				'Cultura e Turismo' : [
             {'name':'Eduardo','value':0},
             {'name':'Marina','value':-3.52},
             {'name':'Levy Fidélix','value':0},
@@ -3938,7 +3938,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-2.86},
             {'name':'Zé Maria','value':0}
   				],
-  				'democracia' :	[
+  				'Democracia e Reforma Política' :	[
             {'name':'Eduardo','value':0.33},
             {'name':'Marina','value':0.38},
             {'name':'Levy Fidélix','value':0.38},
@@ -3950,7 +3950,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.66},
             {'name':'Zé Maria','value':0}
   				],
-  				'desenvolvimentoEconomico' : [
+  				'Desenvolvimento Econômico' : [
             {'name':'Eduardo','value':-3.43},
             {'name':'Marina','value':-3.67},
             {'name':'Levy Fidélix','value':-3.27},
@@ -3962,7 +3962,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-2.52},
             {'name':'Zé Maria','value':0}
   				],
-  				'direitosHumanos' : [
+  				'Direitos Humanos e Inclusão Social' : [
             {'name':'Eduardo','value':-0.28},
             {'name':'Marina','value':-0.13},
             {'name':'Levy Fidélix','value':3.24},
@@ -3974,7 +3974,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.11},
             {'name':'Zé Maria','value':0}
   				],
-  				'educacao' : [
+  				'Educação' : [
             {'name':'Eduardo','value':0.05},
             {'name':'Marina','value':0.15},
             {'name':'Levy Fidélix','value':0.16},
@@ -3986,7 +3986,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.88},
             {'name':'Zé Maria','value':0}
   				],
-  				'esporte' : [
+  				'Esporte e Lazer' : [
             {'name':'Eduardo','value':0},
             {'name':'Marina','value':0},
             {'name':'Levy Fidélix','value':0},
@@ -3998,7 +3998,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0},
             {'name':'Zé Maria','value':0}
   				],
-  				'gestaoPublica' : [
+  				'Gestão Pública' : [
             {'name':'Eduardo','value':-1.29},
             {'name':'Marina','value':-1.01},
             {'name':'Levy Fidélix','value':0.49},
@@ -4010,7 +4010,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.29},
             {'name':'Zé Maria','value':0}
   				],
-  				'infraestrutura' : [
+  				'Infraestrutura' : [
             {'name':'Eduardo','value':0.4},
             {'name':'Marina','value':0.1},
             {'name':'Levy Fidélix','value':0.52},
@@ -4022,7 +4022,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-0.18},
             {'name':'Zé Maria','value':0}
   				],
-  				'liberdadesCivis' : [
+  				'Liberdades Civis' : [
             {'name':'Eduardo','value':0.21},
             {'name':'Marina','value':3.51},
             {'name':'Levy Fidélix','value':3.51},
@@ -4034,7 +4034,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.14},
             {'name':'Zé Maria','value':0}
   				],
-  				'meioAmbiente' : [
+  				'Meio Ambiente' : [
             {'name':'Eduardo','value':-3.15},
             {'name':'Marina','value':-3.79},
             {'name':'Levy Fidélix','value':0},
@@ -4046,7 +4046,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0},
             {'name':'Zé Maria','value':0}
   				],
-  				'outros' : [
+  				'Outros' : [
             {'name':'Eduardo','value':-1.14},
             {'name':'Marina','value':-1.06},
             {'name':'Levy Fidélix','value':-0.57},
@@ -4058,7 +4058,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':2.49},
             {'name':'Zé Maria','value':0}
   				],
-  				'politicaEconomica' : [
+  				'Política Econômica' : [
             {'name':'Eduardo','value':-0.39},
             {'name':'Marina','value':-0.82},
             {'name':'Levy Fidélix','value':-0.54},
@@ -4070,7 +4070,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.16},
             {'name':'Zé Maria','value':0}
   				],
-  				'politicaExterna' : [
+  				'Política Externa e Defesa Social' : [
             {'name':'Eduardo','value':-3.03},
             {'name':'Marina','value':-3.28},
             {'name':'Levy Fidélix','value':-3.19},
@@ -4082,7 +4082,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0},
             {'name':'Zé Maria','value':0}
   				],
-  				'segurancaPublica' : [
+  				'Segurança Pública' : [
             {'name':'Eduardo','value':-0.33},
             {'name':'Marina','value':-0.73},
             {'name':'Levy Fidélix','value':-0.35},
@@ -4094,7 +4094,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.08},
             {'name':'Zé Maria','value':0}
   				],
-  				'politicasSociais' : [
+  				'Políticas Sociais' : [
             {'name':'Eduardo','value':3.75},
             {'name':'Marina','value':0.08},
             {'name':'Levy Fidélix','value':0.66},
@@ -4106,7 +4106,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.01},
             {'name':'Zé Maria','value':0}
   				],
-  				'saude' : [
+  				'Saúde' : [
             {'name':'Eduardo','value':-0.02},
             {'name':'Marina','value':-0.12},
             {'name':'Levy Fidélix','value':0.09},
@@ -4121,7 +4121,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
   		},
 
   		comparativo : {
-  				'cultura' : [
+  				'Cultura e Turismo' : [
             {'name':'Eduardo','value':0},
             {'name':'Marina','value':-3.88},
             {'name':'Levy Fidélix','value':0},
@@ -4133,7 +4133,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-3.23},
             {'name':'Zé Maria','value':0}
   				],
-  				'democracia' :	[
+  				'Democracia e Reforma Política' :	[
             {'name':'Eduardo','value':-0.33},
             {'name':'Marina','value':0.37},
             {'name':'Levy Fidélix','value':1.16},
@@ -4145,7 +4145,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.78},
             {'name':'Zé Maria','value':0}
   				],
-  				'desenvolvimentoEconomico' : [
+  				'Desenvolvimento Econômico' : [
             {'name':'Eduardo','value':-3.92},
             {'name':'Marina','value':-3.99},
             {'name':'Levy Fidélix','value':-3.7},
@@ -4157,7 +4157,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':-1.08},
             {'name':'Zé Maria','value':0}
   				],
-  				'direitosHumanos' : [
+  				'Direitos Humanos e Inclusão Social' : [
             {'name':'Eduardo','value':-0.54},
             {'name':'Marina','value':0.31},
             {'name':'Levy Fidélix','value':3.87},
@@ -4169,7 +4169,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.41},
             {'name':'Zé Maria','value':0}
   				],
-  				'educacao' : [
+  				'Educação' : [
             {'name':'Eduardo','value':-0.58},
             {'name':'Marina','value':-0.16},
             {'name':'Levy Fidélix','value':0.56},
@@ -4181,7 +4181,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.88},
             {'name':'Zé Maria','value':0}
   				],
-  				'esporte' : [
+  				'Esporte e Lazer' : [
             {'name':'Eduardo','value':0},
             {'name':'Marina','value':0},
             {'name':'Levy Fidélix','value':0},
@@ -4193,7 +4193,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0},
             {'name':'Zé Maria','value':0}
   				],
-  				'gestaoPublica' : [
+  				'Gestão Pública' : [
             {'name':'Eduardo','value':-1.41},
             {'name':'Marina','value':-0.84},
             {'name':'Levy Fidélix','value':3.28},
@@ -4205,7 +4205,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.03},
             {'name':'Zé Maria','value':0}
   				],
-  				'infraestrutura' : [
+  				'Infraestrutura' : [
             {'name':'Eduardo','value':-0.25},
             {'name':'Marina','value':0.2},
             {'name':'Levy Fidélix','value':0.98},
@@ -4217,7 +4217,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.17},
             {'name':'Zé Maria','value':0}
   				],
-  				'liberdadesCivis' : [
+  				'Liberdades Civis' : [
             {'name':'Eduardo','value':-0.59},
             {'name':'Marina','value':4.03},
             {'name':'Levy Fidélix','value':4.03},
@@ -4229,7 +4229,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.23},
             {'name':'Zé Maria','value':0}
   				],
-  				'meioAmbiente' : [
+  				'Meio Ambiente' : [
             {'name':'Eduardo','value':-4.53},
             {'name':'Marina','value':-4.41},
             {'name':'Levy Fidélix','value':0},
@@ -4241,7 +4241,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0},
             {'name':'Zé Maria','value':0}
   				],
-  				'outros' : [
+  				'Outros' : [
             {'name':'Eduardo','value':-0.77},
             {'name':'Marina','value':-0.28},
             {'name':'Levy Fidélix','value':-0.78},
@@ -4253,7 +4253,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':3.72},
             {'name':'Zé Maria','value':0}
   				],
-  				'politicaEconomica' : [
+  				'Política Econômica' : [
             {'name':'Eduardo','value':-0.82},
             {'name':'Marina','value':0.02},
             {'name':'Levy Fidélix','value':0.18},
@@ -4265,7 +4265,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0.95},
             {'name':'Zé Maria','value':0}
   				],
-  				'politicaExterna' : [
+  				'Política Externa e Defesa Social' : [
             {'name':'Eduardo','value':-4.11},
             {'name':'Marina','value':-3.87},
             {'name':'Levy Fidélix','value':-5},
@@ -4277,7 +4277,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':0},
             {'name':'Zé Maria','value':0}
   				],
-  				'segurancaPublica' : [
+  				'Segurança Pública' : [
             {'name':'Eduardo','value':-0.16},
             {'name':'Marina','value':0.18},
             {'name':'Levy Fidélix','value':-0.14},
@@ -4289,7 +4289,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':1.19},
             {'name':'Zé Maria','value':0}
   				],
-  				'politicasSociais' : [
+  				'Políticas Sociais' : [
             {'name':'Eduardo','value':4.22},
             {'name':'Marina','value':0.25},
             {'name':'Levy Fidélix','value':0.72},
@@ -4301,7 +4301,7 @@ angular.module('projetobrasil.dados.diferencas.services', [])
             {'name':'Rui Costa Pimenta','value':4.06},
             {'name':'Zé Maria','value':0}
   				],
-  				'saude' : [
+  				'Saúde' : [
             {'name':'Eduardo','value':-0.69},
             {'name':'Marina','value':-0.17},
             {'name':'Levy Fidélix','value':-0.06},
@@ -4316,8 +4316,23 @@ angular.module('projetobrasil.dados.diferencas.services', [])
   		}
   	}
 };
-  diferencasService.temas = ['cultura', 'democracia', 'desenvolvimentoEconomico'];
-  diferencasService.nomesCandidatos = {'eduardo' : 'Eduardo Jorge'};
+  diferencasService.temas = ['Cultura e Turismo', 'Democracia e Reforma Política', 'Desenvolvimento Econômico', 'Direitos Humanos e Inclusão Social', 'Educação',
+                              'Esporte e Lazer', 'Gestão Pública', 'Infraestrutura', 'Liberdades Civis', 
+                              'Meio Ambiente', 'Outros', 'Política Econômica', 'Política Externa e Defesa Social', 'Segurança Pública',
+                              'Políticas Sociais', 'Saúde'];
+  diferencasService.nomesCandidatos = {
+    'eduardo' : 'Eduardo Jorge',
+    'dilma' : 'Dilma Roussef',
+    'marina' : 'Marina Silva',
+    'fidelix' : 'Levy Fidélix',
+    'aecio' : 'Aécio Neves',
+    'luciana' : 'Luciana Genro',
+    'eymael' : 'José Maria Eymael',
+    'everaldo' : 'Pr. Everaldo Dias Pereira',
+    'mauro' : 'Mauro Iasi',
+    'rui' : 'Rui Costa Pimenta',
+    'zeMaria' : 'José Maria de Almeida'
+  };
 
   return diferencasService;
 }]);
