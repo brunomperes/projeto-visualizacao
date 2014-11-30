@@ -26,7 +26,7 @@ var svg = d3.select("body").append("svg")
 //d3.tsv("liberdades-civis.tsv", type, function(error, data) {
 d3.json("cultura.json", function(error, data) {
   console.log(error);
-  x.domain(d3.extent(data, function(d) { return +d.value * 1.2; })).nice();
+  x.domain(d3.extent(data, function(d) { return +d.value; })).nice();
 
   // container de barras
   var bar = svg.selectAll("g")
