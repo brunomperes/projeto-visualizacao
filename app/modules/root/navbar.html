@@ -15,15 +15,23 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li ng-class="{ active: abaAtiva('/')}"><a ui-sref="main">Home</a></li>
-                <li ng-class="{ active: abaAtiva('/diferencas')}"><a ui-sref="diferencas">Diferenças</a></li>
-                <!-- <li class="dropdown">
-                  <a href="http://getbootstrap.com/examples/carousel/#" class="dropdown-toggle" data-toggle="dropdown">Candidatos <span class="caret"></span></a>
+                <li class="dropdown">
+                  <a href="" data-toggle="dropdown">Diferenças <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="http://getbootstrap.com/examples/carousel/#">Action</a></li>
-                    <li><a href="http://getbootstrap.com/examples/carousel/#">Another action</a></li>
-                    <li><a href="http://getbootstrap.com/examples/carousel/#">Something else here</a></li>
+                    <li><a ui-sref="diferencas({'candidato':'eduardo'})">Eduardo Jorge</a></li>
+                    <li><a ui-sref="diferencas({'candidato':'dilma'})">Dilma</a></li>
+                    <li><a ui-sref="diferencas({'candidato':'marina'})">Marina Silva</a></li>
+                    <li><a ui-sref="diferencas({'candidato':'fidelix'})">Levy Fidelix</a></li>
+                    <li><a ui-sref="diferencas({'candidato':'aecio'})">Aécio Neves</a></li>
+                    <li><a ui-sref="diferencas({'candidato':'dilma'})">Dilma Roussef</a></li>
+                    <li><a ui-sref="diferencas({'candidato':'luciana'})">Luciana Genro</a></li>
+                    <li><a ui-sref="diferencas({'candidato':'eymael'})">Eymael</a></li>
+                    <li><a ui-sref="diferencas({'candidato':'everaldo'})">Pastor Everaldo</a></li>
+                    <li><a ui-sref="diferencas({'candidato':'mauro'})">Mauro Iasi</a></li>
+                    <li><a ui-sref="diferencas({'candidato':'rui'})">Rui Costa Pimenta</a></li>
+                    <li><a ui-sref="diferencas({'candidato':'zeMaria'})">Zé Maria</a></li>
                   </ul>
-                </li> -->
+                </li>
                 <li ng-class="{ active: abaAtiva('/propostas')}"><a ui-sref="propostas">Propostas</a></li>
                 <li ng-class="{ active: abaAtiva('/candidatos')}"><a ui-sref="candidatos">Candidatos</a></li>
               </ul>

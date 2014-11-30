@@ -9,7 +9,7 @@ angular
   .config(function($stateProvider){
     $stateProvider
       .state('diferencas', {
-        url: '/diferencas',
+        url: '/diferencas?candidato',
         parent: 'root',
         views: {
           '@': {
