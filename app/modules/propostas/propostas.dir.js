@@ -61,6 +61,72 @@ angular.module('projetobrasil.dados.propostas.directives', [])
 
           zoomTo([root.x, root.y, root.r * 2 + margin]);
 
+          var LegendColors = {'Cultura e Turismo': 'rgba(140, 213, 0, 0.7)',
+            'Democracia e Reforma Política': 'rgba(200, 131, 255, 0.7)',
+            'Desenvolvimento Econômico': 'rgba(23, 162, 220, 0.7)',
+            'Direitos Humanos e Inclusão social': 'rgba(217, 27, 139, 0.7)',
+            'Educação': 'rgba(101, 45, 144, 0.7)',
+            'Esporte e lazer': 'rgba(94, 50, 9, 0.7)',
+            'Gestão Pública': 'rgba(237, 29, 36, 0.7)',
+            'Infraestrutura': 'rgba(6, 32, 132, 0.7)',
+            'Liberdades civis': 'rgba(26, 228, 183, 0.7)',
+            'Segurança Pública': 'rgba(246, 164, 28, 0.7)',
+            'Meio-ambiente': 'rgba(56, 153, 12, 0.7)',
+            'Política Econômica': 'rgba(46, 40, 29, 0.7)',
+            'Política Externa e Defesa Nacional': 'rgba(255, 205, 6, 0.7)',
+            'Políticas Sociais': 'rgba(149, 149, 149, 0.7)',
+            'Saúde': 'rgba(255, 171, 236, 0.7)',
+            'Outros': 'rgba(26, 228, 183, 0.7)'
+          };
+          var LegendOptions = [
+            'Cultura e Turismo',
+            'Democracia e Reforma Política',
+            'Desenvolvimento Econômico',
+            'Direitos Humanos e Inclusão social',
+            'Educação',
+            'Esporte e lazer',
+            'Gestão Pública',
+            'Infraestrutura',
+            'Liberdades civis',
+            'Segurança Pública',
+            'Meio-ambiente',
+            'Política Econômica',
+            'Política Externa e Defesa Nacional',
+            'Políticas Sociais',
+            'Saúde',
+            'Outros'
+          ];
+
+          // Create the legend
+          var legend = svg.append('g')
+                .attr('class', 'legend')
+                .attr('height', 100)
+                .attr('width', 200)
+                .attr('transform', 'translate(-510,-300)')
+                ;
+                //Create colour squares
+                legend.selectAll('rect')
+                  .data(LegendOptions)
+                  .enter()
+                  .append('rect')
+                  .attr('x', width - 65)
+                  .attr('y', function(d, i){ return i * 20;})
+                  .attr('width', 10)
+                  .attr('height', 10)
+                  .style('fill', function(d, i){ return LegendColors[d];})
+                  ;
+                //Create text next to squares
+                legend.selectAll('text')
+                  .data(LegendOptions)
+                  .enter()
+                  .append('text')
+                  .attr('x', width - 52)
+                  .attr('y', function(d, i){ return i * 20 + 9;})
+                  .attr('font-size', '11px')
+                  .attr('fill', function(d, i){ return i * 20 + 9;})
+                  .text(function(d) { return d; })
+                  ;
+
           function zoom(d) {
             var focus0 = focus; focus = d;
 
