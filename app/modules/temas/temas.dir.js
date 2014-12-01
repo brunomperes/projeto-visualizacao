@@ -21,7 +21,7 @@ angular.module('projetobrasil.dados.temas.directives', [])
               type : 'bar'
             },
             title : {
-              text : 'Melhores propostas por tema e candidato'
+              text : 'Melhores propostas no comparativo por tema e candidato'
             },
             xAxis : {
               type : 'category',
