@@ -7,8 +7,8 @@ angular.module('projetobrasil.dados.candidatos.directives', [])
       replace: false,
       link: function (scope, element, attrs) {
 
-          var w = $(element[0]).parent().width()-300,
-            h = $(element[0]).parent().width()-300;
+          var w = $(element[0]).parent().width()-200,
+            h = $(element[0]).parent().width()-200;
 
           //Options for the Radar chart, other than default
           var mycfg = {
