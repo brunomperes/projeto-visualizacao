@@ -9,7 +9,8 @@ Em agosto de 2014, o Projeto Brasil lançou uma plataforma para comparação das
 
 <h2>Os Dados</h2>
 
-Aenean elementum vestibulum felis tempus ultrices. Aenean purus risus, semper facilisis scelerisque at, mollis vel nulla. Donec rutrum dolor mauris, in congue libero tristique vel. Integer tincidunt turpis nec odio vehicula dignissim. Fusce condimentum quis sapien at aliquet. Integer varius, nisi eget scelerisque consequat, ipsum nisi placerat est, sit amet accumsan tellus mi id mi. Vivamus vel odio eget eros lacinia rutrum. Nulla luctus maximus mauris, non vulputate nibh pretium et. Proin luctus, erat non pretium tempus, sapien massa malesuada odio, non tempor risus enim vel libero. Donec eleifend faucibus tristique.
+O Projeto Brasil obteve mais de 1 milhão de avaliações de propostas, dentre um total de 928.198 avaliações no Teste Cego e 47.588 avaliações no Comparativo de Propostas, realizadas pelos 57.103 usuários cadastrados na plataforma. As 1.364 propostas enviadas ao TSE são categorizadas em 17 temas e 44 subtemas.
+Os dados foram minerados buscando uma melhor visão, globalmente e individualmente, da qualidade e adequação das propostas dos candidatos pela população no processo das eleições presidenciais de 2014.
       </div>
         <div class="col-lg-2">
 
@@ -19,75 +20,37 @@ Aenean elementum vestibulum felis tempus ultrices. Aenean purus risus, semper fa
       <br><br>
 
       <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
+      <div class="row text-center">
+        <div class="col-lg-3">
+          <img class="img-circle" src="images/temas.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>Melhores Propostas</h2>
+          <p>Quais os candidatos mais bem votados em cada tema? Existe algum tema que tende a ter melhor avaliação?</p>
+          <p><a class="btn btn-default" ui-sref="temas">Abrir visualização »</a></p>
+        </div><!-- /.col-lg-3 -->
+        <div class="col-lg-3">
+          <img class="img-circle" src="images/barras.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>Diferenças entre candidatos</h2>
+          <p>Visualize quais as diferenças de notas entre os candidatos, no teste cego e no comparativo de propostas.</p>
+          <p><a class="btn btn-default" ui-sref="diferencas({'candidato':'dilma'})">Abrir visualização »</a></p>
+        </div><!-- /.col-lg-3 -->
+        <div class="col-lg-3">
           <img class="img-circle" src="images/circle.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2>Temas</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-default" href="http://getbootstrap.com/examples/carousel/#" role="button">View details »</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="images/vertical.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2>Propostas</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="http://getbootstrap.com/examples/carousel/#" role="button">View details »</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="images/lateral.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2>Candidatos</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="http://getbootstrap.com/examples/carousel/#" role="button">View details »</a></p>
-        </div><!-- /.col-lg-4 -->
+          <h2>Quantidade de Propostas</h2>
+          <p>Qual candidato apresentou mais propostas? Existe algum tema predominante entre os candidatos?</p>
+          <p><a class="btn btn-default" ui-sref="propostas">Abrir visualização »</a></p>
+        </div><!-- /.col-lg-3 -->
+        <div class="col-lg-3">
+          <img class="img-circle" src="images/radar.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>Desempenho dos candidatos</h2>
+          <p>Compare o desempenho dos candidatos nos 17 temas no teste cego e no comparativo.</p>
+          <p><a class="btn btn-default" ui-sref="candidatos">Abrir visualização »</a></p>
+        </div><!-- /.col-lg-3 -->
       </div><!-- /.row -->
-
-
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <grafico-barras chart-data="{{myData}}"></grafico-barras>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjE5MC4zMTI1IiB5PSIyNTAiIHN0eWxlPSJmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjNwdDtkb21pbmFudC1iYXNlbGluZTpjZW50cmFsIj41MDB4NTAwPC90ZXh0PjwvZz48L3N2Zz4=" data-holder-rendered="true">
-        </div>
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjE5MC4zMTI1IiB5PSIyNTAiIHN0eWxlPSJmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjNwdDtkb21pbmFudC1iYXNlbGluZTpjZW50cmFsIj41MDB4NTAwPC90ZXh0PjwvZz48L3N2Zz4=" data-holder-rendered="true">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
 
 
       <!-- FOOTER -->
       <footer>
-        <p class="pull-right"><a href="http://getbootstrap.com/examples/carousel/#">Back to top</a></p>
-        <p>© 2014 Company, Inc. · <a href="http://getbootstrap.com/examples/carousel/#">Privacy</a> · <a href="http://getbootstrap.com/examples/carousel/#">Terms</a></p>
+        <!-- <p>© 2014 Copyright. · <a href="http://getbootstrap.com/examples/carousel/#">Privacy</a> · <a href="http://getbootstrap.com/examples/carousel/#">Terms</a></p> -->
       </footer>
 
     </div><!-- /.container -->
