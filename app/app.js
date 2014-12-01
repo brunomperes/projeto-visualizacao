@@ -19,6 +19,7 @@ angular
     'projetobrasil.dados.main',
     'projetobrasil.dados.root',
     'projetobrasil.dados.diferencas',
+    'projetobrasil.dados.temas',
     'projetobrasil.dados.candidatos',
     'projetobrasil.dados.propostas'
   ])
