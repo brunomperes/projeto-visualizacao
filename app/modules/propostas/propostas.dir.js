@@ -8,7 +8,7 @@ angular.module('projetobrasil.dados.propostas.directives', [])
       link: function (scope, element, attrs) {
 
         var margin = 15,   //20
-            diameter = $(element[0]).parent().width()/1.5,  //960
+            diameter = $(element[0]).parent().width()/1.9,  //960
             width = $(element[0]).parent().width();
 
         var color = d3.scale.linear()
@@ -43,7 +43,7 @@ angular.module('projetobrasil.dados.propostas.directives', [])
             .enter().append("circle")
               .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
               .attr('theme', function(d){ if (d.depth == 3) { return d.parent.name; } })
-              .attr("fill", function(d) { return d.children ? color(d.depth) : null; })
+              .attr("fill", function(d) { return d.children ? color(d.depth-3) : null; })
               .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 
           var text = svg.selectAll("text")
